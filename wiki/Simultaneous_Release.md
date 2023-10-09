@@ -1,12 +1,11 @@
+# Eclipse IDE Simultaneous Release (SimRel)
+
 The [Eclipse Foundation](https://wiki.eclipse.org/Foundation) and its community of
 projects and contributors produce releases on a coordinated schedule
 that are often referred to as *simultaneous release*, *coordinated
 release* or *release train* of Eclipse. This page provides an index of
 existing simultaneous releases from the current and previous years.
 
-Since the 2018-09 release, the cadence changed from one annual main
-release plus 3 update/service releases to a 13-week cycle with rolling
-releases.
 
 <table>
 <thead>
@@ -36,7 +35,7 @@ href="SimRel/2023-09.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2023-09/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2023-09/">p2
+<a href="https://download.eclipse.org/releases/2023-09/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -48,7 +47,7 @@ href="SimRel/2023-06.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2023-06/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2023-06/">p2
+<a href="https://download.eclipse.org/releases/2023-06/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -60,9 +59,35 @@ href="SimRel/2023-03.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2023-03/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2023-03/">p2
+<a href="https://download.eclipse.org/releases/2023-03/">p2
 Repository</a></p></td>
 </tr>
+</tbody>
+</table>
+
+
+## Older Releases
+
+The Eclipse Simultaneous Release has been producing regular releases since 2006.
+This section contains the historical release details for all these older releases.
+
+<details>
+<summary>Older releases details</summary>
+
+Since the 2018-09 release, the cadence changed from one annual main
+release plus 3 update/service releases to a 13-week cycle with rolling
+releases.
+
+<table>
+<thead>
+<tr class="header">
+<th><p>Release name</p></th>
+<th><p>Platform version</p></th>
+<th><p>Release</p></th>
+<th><p>Links</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p>2022-12</p></td>
 <td><p>4.26</p></td>
@@ -72,7 +97,7 @@ href="SimRel/2022-12.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2022-12/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2022-12/">p2
+<a href="https://download.eclipse.org/releases/2022-12/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -84,7 +109,7 @@ href="SimRel/2022-09.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2022-09/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2022-09/">p2
+<a href="https://download.eclipse.org/releases/2022-09/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -96,7 +121,7 @@ href="SimRel/2022-06.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2022-06/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2022-06/">p2
+<a href="https://download.eclipse.org/releases/2022-06/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -108,7 +133,7 @@ href="SimRel/2022-03.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2022-03/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2022-03/">p2
+<a href="https://download.eclipse.org/releases/2022-03/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +145,7 @@ href="SimRel/2021-12.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2021-12/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2021-12/">p2
+<a href="https://download.eclipse.org/releases/2021-12/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -132,7 +157,7 @@ href="SimRel/2021-09.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2021-09/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2021-09/">p2
+<a href="https://download.eclipse.org/releases/2021-09/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -144,7 +169,7 @@ href="SimRel/2021-06.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2021-06/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2021-06/">p2
+<a href="https://download.eclipse.org/releases/2021-06/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -156,7 +181,7 @@ href="SimRel/2021-03.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2021-03/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2021-03/">p2
+<a href="https://download.eclipse.org/releases/2021-03/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -168,7 +193,7 @@ href="SimRel/2020-12.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2020-12/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2020-12/">p2
+<a href="https://download.eclipse.org/releases/2020-12/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -180,7 +205,7 @@ href="SimRel/2020-09.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2020-09/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2020-09/">p2
+<a href="https://download.eclipse.org/releases/2020-09/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -192,7 +217,7 @@ href="SimRel/2020-06.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2020-06/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2020-06/">p2
+<a href="https://download.eclipse.org/releases/2020-06/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -204,7 +229,7 @@ href="SimRel/2020-03.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2020-03/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2020-03/">p2
+<a href="https://download.eclipse.org/releases/2020-03/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -216,7 +241,7 @@ href="SimRel/2019-12.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2019-12/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2019-12/">p2
+<a href="https://download.eclipse.org/releases/2019-12/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -228,7 +253,7 @@ href="SimRel/2019-09.md">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/2019-09/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2019-09/">p2
+<a href="https://download.eclipse.org/releases/2019-09/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -241,7 +266,7 @@ href="https://wiki.eclipse.org/SimRel/2019-06/Simultaneous_Release_Plan">Plan</a
 <a
 href="https://www.eclipse.org/downloads/packages/release/2019-06/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2019-06/">p2
+<a href="https://download.eclipse.org/releases/2019-06/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -254,7 +279,7 @@ href="https://wiki.eclipse.org/SimRel/2019-03/Simultaneous_Release_Plan">Plan</a
 <a
 href="https://www.eclipse.org/downloads/packages/release/2019-03/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2019-03/">p2
+<a href="https://download.eclipse.org/releases/2019-03/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -267,7 +292,7 @@ href="https://wiki.eclipse.org/SimRel/2018-12/Simultaneous_Release_Plan">Plan</a
 <a
 href="https://www.eclipse.org/downloads/packages/release/2018-12/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2018-12/">p2
+<a href="https://download.eclipse.org/releases/2018-12/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -280,7 +305,7 @@ href="https://wiki.eclipse.org/SimRel/2018-09/Simultaneous_Release_Plan">Plan</a
 <a
 href="https://www.eclipse.org/downloads/packages/release/2018-09/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/2018-09/">p2
+<a href="https://download.eclipse.org/releases/2018-09/">p2
 Repository</a><br />
 </p></td>
 </tr>
@@ -316,7 +341,7 @@ June, with follow-up update releases in September (\*.1), December
 href="https://wiki.eclipse.org/Photon/Simultaneous_Release_Plan">Plan</a><br />
 <a href="https://www.eclipse.org/downloads/">Main Download
 Page</a><br />
-<a href="http://download.eclipse.org/releases/photon/">p2
+<a href="https://download.eclipse.org/releases/photon/">p2
 Repository</a><br />
 </p></td>
 </tr>
@@ -333,7 +358,7 @@ href="https://wiki.eclipse.org/Oxygen/Simultaneous_Release_Plan">Plan</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/oxygen/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/oxygen/">p2
+<a href="https://download.eclipse.org/releases/oxygen/">p2
 Repository</a><br />
 </p></td>
 </tr>
@@ -350,7 +375,7 @@ href="https://wiki.eclipse.org/Neon/Simultaneous_Release_Plan">Plan</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/neon/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/neon/">p2
+<a href="https://download.eclipse.org/releases/neon/">p2
 Repository</a><br />
 </p></td>
 </tr>
@@ -383,7 +408,7 @@ Before Neon, each release train had two service releases in September
 <a
 href="https://www.eclipse.org/downloads/packages/release/mars/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/mars/">p2
+<a href="https://download.eclipse.org/releases/mars/">p2
 Repository</a><br />
 </p></td>
 </tr>
@@ -393,12 +418,12 @@ Repository</a><br />
 <td><p>June 25, 2014</p></td>
 <td><p>September 23, 2014</p></td>
 <td><p>February 25, 2015</p></td>
-<td><p><a href="http://eclipse.org/luna">Web Site</a><br />
+<td><p><a href="https://eclipse.org/luna">Web Site</a><br />
 <a href="https://wiki.eclipse.org/:Category:Luna">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/luna/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/luna/">p2
+<a href="https://download.eclipse.org/releases/luna/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -407,12 +432,12 @@ Repository</a></p></td>
 <td><p>June 26, 2013</p></td>
 <td><p>September 27, 2013</p></td>
 <td><p>February 28, 2014</p></td>
-<td><p><a href="http://eclipse.org/kepler">Web Site</a><br />
+<td><p><a href="https://eclipse.org/kepler">Web Site</a><br />
 <a href="https://wiki.eclipse.org/:Category:Kepler">Wiki</a><br />
 <a
 href="https://www.eclipse.org/downloads/packages/release/kepler/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/kepler/">p2
+<a href="https://download.eclipse.org/releases/kepler/">p2
 Repository</a></p></td>
 </tr>
 <tr class="even">
@@ -421,12 +446,12 @@ Repository</a></p></td>
 <td><p>June 27, 2012</p></td>
 <td><p>September 28, 2012</p></td>
 <td><p>March 1, 2013</p></td>
-<td><p><a href="http://eclipse.org/juno">Web Site</a><br />
+<td><p><a href="https://eclipse.org/juno">Web Site</a><br />
 <a href="https://wiki.eclipse.org/:Category:Juno">Wiki</a><br />
 <a
-href="http://www.eclipse.org/downloads/packages/release/juno/r">Package
+href="https://www.eclipse.org/downloads/packages/release/juno/r">Package
 Download Page</a><br />
-<a href="http://download.eclipse.org/releases/juno/">p2
+<a href="https://download.eclipse.org/releases/juno/">p2
 Repository</a></p></td>
 </tr>
 <tr class="odd">
@@ -435,13 +460,13 @@ Repository</a></p></td>
 <td><p>June 22, 2011</p></td>
 <td><p>September 23, 2011</p></td>
 <td><p>February 24, 2012</p></td>
-<td><p><a href="http://eclipse.org/indigo">Web Site</a><br />
+<td><p><a href="https://eclipse.org/indigo">Web Site</a><br />
 <a href="https://wiki.eclipse.org/:Category:Indigo">Wiki</a><br />
 <a
-href="http://www.eclipse.org/downloads/packages/release/indigo/r">Download
+href="https://www.eclipse.org/downloads/packages/release/indigo/r">Download
 Page</a><br />
 <a
-href="http://download.eclipse.org/releases/indigo/">Repository</a></p></td>
+href="https://download.eclipse.org/releases/indigo/">Repository</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Helios</p></td>
@@ -449,13 +474,13 @@ href="http://download.eclipse.org/releases/indigo/">Repository</a></p></td>
 <td><p>June 23, 2010</p></td>
 <td><p>September 24, 2010</p></td>
 <td><p>February 25, 2011</p></td>
-<td><p><a href="http://eclipse.org/helios">Web Site</a><br />
+<td><p><a href="https://eclipse.org/helios">Web Site</a><br />
 <a href="https://wiki.eclipse.org/:Category:Helios">Wiki</a><br />
 <a
-href="http://www.eclipse.org/downloads/packages/release/helios/r">Download
+href="https://www.eclipse.org/downloads/packages/release/helios/r">Download
 Page</a><br />
 <a
-href="http://download.eclipse.org/releases/helios/">Repository</a></p></td>
+href="https://download.eclipse.org/releases/helios/">Repository</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Galileo</p></td>
@@ -463,10 +488,10 @@ href="http://download.eclipse.org/releases/helios/">Repository</a></p></td>
 <td><p>June 24, 2009</p></td>
 <td><p>September 25, 2009</p></td>
 <td><p>February 26, 2010</p></td>
-<td><p><a href="http://eclipse.org/galileo">Web Site</a><br />
+<td><p><a href="https://eclipse.org/galileo">Web Site</a><br />
 <a href="https://wiki.eclipse.org/Galileo_Simultaneous_Release">Wiki</a><br />
 <a
-href="http://www.eclipse.org/downloads/packages/release/galileo/r">Download
+href="https://www.eclipse.org/downloads/packages/release/galileo/r">Download
 Page</a></p></td>
 </tr>
 <tr class="even">
@@ -475,10 +500,10 @@ Page</a></p></td>
 <td><p>June 25, 2008</p></td>
 <td><p>September 24, 2008</p></td>
 <td><p>February 25, 2009</p></td>
-<td><p><a href="http://eclipse.org/ganymede">Web Site</a><br />
+<td><p><a href="https://eclipse.org/ganymede">Web Site</a><br />
 <a href="https://wiki.eclipse.org/Ganymede_Simultaneous_Release">Wiki</a><br />
 <a
-href="http://www.eclipse.org/downloads/packages/release/ganymede/r">Download
+href="https://www.eclipse.org/downloads/packages/release/ganymede/r">Download
 Page</a></p></td>
 </tr>
 <tr class="odd">
@@ -487,10 +512,10 @@ Page</a></p></td>
 <td><p>June 27, 2007</p></td>
 <td><p>September 28, 2007</p></td>
 <td><p>February 29, 2008</p></td>
-<td><p><a href="http://eclipse.org/europa">Web Site</a><br />
+<td><p><a href="https://eclipse.org/europa">Web Site</a><br />
 <a href="https://wiki.eclipse.org/Europa_Simultaneous_Release">Wiki</a><br />
 <a
-href="http://www.eclipse.org/downloads/packages/release/europa/winter">Download
+href="https://www.eclipse.org/downloads/packages/release/europa/winter">Download
 Page</a></p></td>
 </tr>
 <tr class="even">
@@ -499,11 +524,13 @@ Page</a></p></td>
 <td><p>June 26, 2006</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
-<td><p><a href="http://eclipse.org/callisto">Web Site</a> <a
+<td><p><a href="https://eclipse.org/callisto">Web Site</a> <a
 href="https://wiki.eclipse.org/Callisto_Simultaneous_Release">Wiki</a></p></td>
 </tr>
 </tbody>
 </table>
+
+</details>
 
 ## More Information
 
