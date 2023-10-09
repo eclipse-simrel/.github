@@ -1,0 +1,14 @@
+name: Check Markdown links
+
+# TODO - once markdown is in a more complete state this can be changed to check all
+# files, not just modified ones. See check-modified-files-only too
+on: [pull_request]
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        check-modified-files-only: 'yes'
