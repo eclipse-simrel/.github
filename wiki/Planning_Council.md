@@ -27,9 +27,9 @@ The Eclipse Planning Council generally meets on Zoom once per month and communic
 ### Call and Meeting Schedule
 
 Planning Council calls take place the first Wednesday of each month.
-A Google [calendar](https://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&ctz=America/New_York) is used to manage call dates and times. The calendar is available in the following formats:
-[iCal](https://www.google.com/calendar/ical/gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com/public/basic.ics), 
-[HTML](https://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&amp;ctz=America/New_York)</p>
+A Google [calendar](https://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&ctz=America/New_York) <!-- markdown-link-check-disable-line --> is used to manage call dates and times. The calendar is available in the following formats:
+[iCal](https://www.google.com/calendar/ical/gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com/public/basic.ics) <!-- markdown-link-check-disable-line -->, 
+[HTML](https://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&amp;ctz=America/New_York) <!-- markdown-link-check-disable-line --></p>
 
 #### Logistics
 
