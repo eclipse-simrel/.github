@@ -17,14 +17,55 @@ existing simultaneous releases from the current and previous years.
 </tr>
 </thead>
 <tbody>
+
+<tr class="odd">
+<td><p>2024-06 (Future release)</p></td>
+<td><p>4.32</p></td>
+<td><p>June 12, 2024</p></td>
+<td><p><a
+href="SimRel/2024-06.md">Wiki</a><br />
+<!-- Uncomment on release day
+<a
+href="https://www.eclipse.org/downloads/packages/release/2024-06/r">Package
+Download Page</a><br />
+<a href="https://download.eclipse.org/releases/2024-06/">p2
+Repository</a>
+-->
+</p></td>
+</tr>
+
+<tr class="even">
+<td><p>2024-03 (Future release)</p></td>
+<td><p>4.31</p></td>
+<td><p>March 13, 2024</p></td>
+<td><p><a
+href="SimRel/2024-03.md">Wiki</a><br />
+<!-- Uncomment on release day
+<a
+href="https://www.eclipse.org/downloads/packages/release/2024-03/r">Package
+Download Page</a><br />
+<a href="https://download.eclipse.org/releases/2024-03/">p2
+Repository</a>
+-->
+</p></td>
+</tr>
+
 <tr class="odd">
 <td><p>2023-12 (Future release)</p></td>
 <td><p>4.30</p></td>
 <td><p>December 06, 2023</p></td>
 <td><p><a
 href="SimRel/2023-12.md">Wiki</a><br />
+<!-- Uncomment on release day
+<a
+href="https://www.eclipse.org/downloads/packages/release/2023-12/r">Package
+Download Page</a><br />
+<a href="https://download.eclipse.org/releases/2023-12/">p2
+Repository</a>
+-->
 </p></td>
 </tr>
+
 <tr class="even">
 <td><p><span style="color: green;">2023-09 (Current
 release)</span></p></td>
@@ -38,6 +79,7 @@ Download Page</a><br />
 <a href="https://download.eclipse.org/releases/2023-09/">p2
 Repository</a></p></td>
 </tr>
+
 <tr class="odd">
 <td><p>2023-06 (Last release)</p></td>
 <td><p>4.28</p></td>
@@ -50,6 +92,7 @@ Download Page</a><br />
 <a href="https://download.eclipse.org/releases/2023-06/">p2
 Repository</a></p></td>
 </tr>
+
 <tr class="even">
 <td><p>2023-03</p></td>
 <td><p>4.27</p></td>
@@ -62,6 +105,7 @@ Download Page</a><br />
 <a href="https://download.eclipse.org/releases/2023-03/">p2
 Repository</a></p></td>
 </tr>
+
 </tbody>
 </table>
 
