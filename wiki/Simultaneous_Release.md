@@ -51,24 +51,21 @@ Repository</a>
 </tr>
 
 <tr class="odd">
-<td><p>2023-12 (Future release)</p></td>
+<td><p>2023-12 (Current release)</p></td>
 <td><p>4.30</p></td>
 <td><p>December 06, 2023</p></td>
 <td><p><a
 href="SimRel/2023-12.md">Wiki</a><br />
-<!-- Uncomment on release day
 <a
 href="https://www.eclipse.org/downloads/packages/release/2023-12/r">Package
 Download Page</a><br />
 <a href="https://download.eclipse.org/releases/2023-12/">p2
 Repository</a>
--->
 </p></td>
 </tr>
 
 <tr class="even">
-<td><p><span style="color: green;">2023-09 (Current
-release)</span></p></td>
+<td><p>2023-09 (Last release)</p></td>
 <td><p>4.29</p></td>
 <td><p>September 13, 2023</p></td>
 <td><p><a
@@ -81,7 +78,7 @@ Repository</a></p></td>
 </tr>
 
 <tr class="odd">
-<td><p>2023-06 (Last release)</p></td>
+<td><p>2023-06</p></td>
 <td><p>4.28</p></td>
 <td><p>June 14, 2023</p></td>
 <td><p><a
