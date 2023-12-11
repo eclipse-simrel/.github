@@ -1,3 +1,5 @@
+<img src="https://github.com/eclipse-simrel/.github/blob/main/assets/artwork/svg/SimRel-Color.svg" width="10%">
+
 ## Creating an Eclipse Development Environment
 
 You can set up a pre-configured IDE for development of Eclipse SimRel using the following link:
