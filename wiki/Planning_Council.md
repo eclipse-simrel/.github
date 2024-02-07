@@ -59,6 +59,8 @@ Telephone Dial in (for higher quality, dial a number based on your curr
 
 ### Meeting notes
 
+ - [2024-02-07](Planning_Council/2024-02-07.md)
+ - 2023-01-03 there was no meeting due to Christmas/New Year holidays
  - [2023-12-06](Planning_Council/2023-12-06.md)
  - [2023-11-01](Planning_Council/2023-11-01.md)
  - [2023-10-04](Planning_Council/2023-10-04.md)
