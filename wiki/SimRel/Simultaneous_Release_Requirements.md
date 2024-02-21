@@ -286,7 +286,7 @@ into a manifest.mf file at initial startup. With that, empty plugin.xml
 files in the presence of a manifest.mf file should not be included in a
 bundle. (For some old history, see .)
 
-#### Execution Environment ([partially tested](#Testing_of_Simultaneous_Release_Repository "wikilink"))
+#### Execution Environment
 
 All plug-ins (that contain Java code) must correctly specify their
 [Bundle Required Execution Environment
@@ -296,9 +296,7 @@ with.
 
 -   The maximum BREE up to and including the 2022-06 release is Java 11.
 -   Starting in 2022-09, BREE up to and including Java 17
--   Starting in 2024-06, BREE up to and including Java 21 (assuming Java
-    21 remains the LTS release and it is released in Sept 2023 as
-    currently planned)
+-   Starting in 2024-06, BREE up to and including Java 21
 -   and going forward the first Eclipse SimRel release to allow an LTS
     will be 6-9 months later.
 
