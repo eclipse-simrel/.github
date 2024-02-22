@@ -290,7 +290,7 @@ bundle. (For some old history, see .)
 
 All plug-ins (that contain Java code) must correctly specify their
 [Bundle Required Execution Environment
-(BREE)](Execution_Environments "wikilink"). Resource-only bundles do not
+(BREE)](https://wiki.eclipse.org/Execution_Environments). Resource-only bundles do not
 need a BREE since it doesn't matter which version of Java they are used
 with.
 
