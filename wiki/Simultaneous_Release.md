@@ -21,7 +21,7 @@ existing simultaneous releases from the current and previous years.
 <tr class="odd">
 <td><p>2024-12 (Future release)</p></td>
 <td><p>4.34</p></td>
-<td><p>June 12, 2024</p></td>
+<td><p>December 04, 2024</p></td>
 <td><p><a
 href="SimRel/2024-12.md">Wiki</a><br />
 <!-- Uncomment on release day
@@ -69,7 +69,7 @@ Repository</a>
 <tr class="even">
 <td><p>2024-03 (Current release)</p></td>
 <td><p>4.31</p></td>
-<td><p>December 4, 2024</p></td>
+<td><p>March 13, 2024</p></td>
 <td><p><a
 href="SimRel/2024-03.md">Wiki</a><br />
 <a
