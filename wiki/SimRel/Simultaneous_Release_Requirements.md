@@ -300,14 +300,27 @@ with.
 -   and going forward the first Eclipse SimRel release to allow an LTS
     will be 6-9 months later.
 
-#### Signing ([tested](#Testing_of_Simultaneous_Release_Repository "wikilink"))
+#### Signing
 
-Projects must use [signed plugins and features using the Eclipse
-certificate](JAR_Signing "wikilink").
+All plug-ins contributed to SimRel must be signed with Eclipse Foundation provided keys.
+The signing can be completed with Jar Signing, or GPG signing, or both if desired.
 
-\[added 12/2015, for Neon\]. Note: If a jar is already signed by the
-Eclipse certificate, then it must not be re-signed by projects for the
-release train.
+##### Jar Signing
+
+The Eclipse Foundation makes a centralized Eclipse Certificate available to all projects that can be used for Jar signing.
+The Jar signing can be done using the centralized Eclipse Certificate which is accessible using the [Eclipse CBI Maven plug-in](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/IT_Infrastructure_Doc#jar-signing).
+
+Jars should generally Jar signed only by their original creator and should not be re-signed by other projects.
+
+##### GPG Signing
+
+The Eclipse Foundation provides individual GPG keys for each project that allows projects to sign their deliverables, including Eclipse Plug-ins.
+
+The signing can be done with the [Tycho GPG plug-in](https://tycho.eclipseprojects.io/doc/latest/tycho-gpg-plugin/sign-p2-artifacts-mojo.html).
+For details on obtaining GPG keys for your project see the [IT Infrastructure section on GPG signing](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/IT_Infrastructure_Doc#what-about-gpg-signing).
+
+This is the main methodology to sign third-party content contributed to SimRel, but can be used for Eclipse content too.
+See the [Eclipse Orbit](https://github.com/eclipse-orbit/) project for more information about consuming third-party content in SimRel.
 
 #### Jarred Bundles
 
