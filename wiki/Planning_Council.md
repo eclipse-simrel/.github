@@ -59,6 +59,7 @@ Telephone Dial in (for higher quality, dial a number based on your curr
 
 ### Meeting notes
 
+ - [2024-12-04](Planning_Council/2024-12-04.md)
  - [2024-11-06](Planning_Council/2024-11-06.md)
  - [2024-10-02](Planning_Council/2024-10-02.md)
  - 2024-09-04
