@@ -1,7 +1,6 @@
 __TOC__
 
-These instructions outline how to contribute to the aggregation build
-for the common repository.
+These instructions outline how to contribute to the aggregation build for the common repository.
 
 These instructions were substantially changed in August of 2012, to
 accommodate migration to new source repository, and at the same time a
@@ -15,17 +14,13 @@ in . However, those change are backward-compatible so there are also
 relevant maintenance branches of the aggregator.
 
 If at anytime, there are questions, issues or problems, don't hesitate
-to ask on [cross-project
-list](mailto://cross-project-issues-dev@eclipse.org), or [open a
-cross-project
-bug](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&component=Cross-Project).
+to use GitHub discussions or issues at https://github.com/eclipse-simrel/simrel.build.
 
 ## Get the simrel.build project
 
 The easiest way to setup and configure a specialized environment for
 contributing to Simrel is to use Oomph's automated approach to create
-it. Open [this
-link](https://www.eclipse.org/setups/installer/?url=https://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/interim/SimultaneousReleaseTrainConfiguration.setup&show=true)
+it. Open [![Create Eclipse Development Environment for the Eclipse SDK](https://download.eclipse.org/oomph/www/setups/svg/simrel.svg)](https://www.eclipse.org/setups/installer/?url=https://raw.githubusercontent.com/eclipse-simrel/simrel.build/main/SimRelConfiguration.setup&show=true "Click to open Eclipse-Installer Auto Launch or drag onto your running installer's title area")
 in a new tab, follow the instructions, and then proceed to the [Edit the
 aggregation description and
 models](#edit-the-aggregation-description-and-models)
@@ -217,8 +212,7 @@ except in very specialized circumstances).
     relationships that span multiple files and you need to update,
     synchronize and check-in all effected files. Note: the Categories
     are normally only added or edited by Planning Council, so be sure
-    large changes there have been discussed via bugzilla, etc. (You can
-    do this via a bugzilla entry in cross-project category).
+    large changes there have been discussed via https://github.com/eclipse-simrel/simrel.build/issues.
     -   To add a feature to an existing category, for example: Using the
         *Aggregator Model Editor* with the top level `simrel.aggr` file
         -- Open your Contribution, And ...
@@ -266,7 +260,7 @@ except in very specialized circumstances).
     notice -- especially if a contribution or feature is causing build
     breaks for an extended period of time especially if there's been no
     communication explaining it or describing status or outlook on
-    cross-project list. Of course, fixing the issue is the desired first
+    simrel-dev list. Of course, fixing the issue is the desired first
     choice, as disabling one contribution or feature will often require
     other contributions or features to be disabled simply because they
     depend on the broken one.
@@ -275,8 +269,8 @@ except in very specialized circumstances).
 
 The overall categories used in the common repository are the
 responsibility of the Planning Council (in that they have the final say
-about any new ones, removals, etc.). So ... please open a cross-project
-bug if you'd like to propose new categories or some reorganization. But
+about any new ones, removals, etc.). So ... please open an issue at https://github.com/eclipse-simrel/simrel.build/issues
+if you'd like to propose new categories or some reorganization. But
 otherwise, feel free to add or remove your features to what ever
 categories you think are appropriate (using the full aggregator editor,
 since two files are changed when doing so) and others will open bugs if
@@ -464,9 +458,8 @@ field and then hitting *submit* button)
 allowed to push directly to this repo. Each project in the Release Train
 generally has a "release engineer" who has the permission to update the
 SimRel repo directly. If you plan to do frequent updates, and agree to
-do them as suggested about, and need write access to this repository
-location, then [open a bugzilla
-entry](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&component=Cross-Project).~~
+do them as suggested above, and need write access to this repository
+location, then please ask on your pull request.
 
 ~~Then you can push directly your commit to the master branch on the
 remote repo.~~

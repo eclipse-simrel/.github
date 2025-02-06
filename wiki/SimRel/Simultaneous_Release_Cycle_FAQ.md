@@ -184,7 +184,7 @@ The period to join the simultaneous release is at the beginning of any
 cycle, four times a year. The project needs to declare its intention to
 join before the +0 (Friday) of the M1 release week. The "statement of
 intent" is still exactly the same as today: projects must formally
-announce their participation on the cross-projects-issues-dev mailing
+announce their participation on the simrel-dev mailing
 list.
 
 Once a year, EMO will take care of organizing the “opt-in” process as it
@@ -220,7 +220,7 @@ Note: to get the best test, disable all other repositories in your list,
 or you might end up pulling something from some other repository, not
 staging. Be aware that moving a specific build to "staging" may happen
 only every few days (if you need something promoted more urgently, just
-ask on cross-project list).
+ask on simrel-dev list).
 
 # What is the staging repository?
 
@@ -271,8 +271,8 @@ will show up. For example, if a feature was removed, renamed, its
 version reduced, or its category changed from one milestone to the next,
 it might still show up in the composite, and that might interfere with
 correct installation (see ), if not merely be confusing to end users. If
-there is a serious problem due to the composite, please open a bug in
-cross-project component and we'll decide if the composite should be
+there is a serious problem due to the composite, please open an issue at https://github.com/eclipse-simrel/simrel.build/issues
+and we'll decide if the composite should be
 changed or reduced to allow for correct installation.
 
 ### Test EPP Package updates
@@ -312,8 +312,7 @@ M1 to M2 and noticed that something's broken, you can revert to M1
 automatically (Via Installed Software -\> Installation History).
 However, this feature only works if M1 is still available at the same
 location, i.e. in the composite update site you used to update to M2 (Or
-to initially install M1) [more
-info](https://www.eclipse.org/lists/cross-project-issues-dev/msg17257.html).
+to initially install M1).
 
 # Once I update my *.aggrcon* file, how can I start a build?
 
@@ -562,7 +561,7 @@ Not necessarily an exhaustive list ... but, some common questions:
 ## Past our +n day, but before window closes?
 
 If we are still within the "drop window" for a deadline, but you are
-past your particular +n day, simply post a note to cross-project list,
+past your particular +n day, simply post a note to simrel-dev list,
 with any relevant questions and answers from above list, the bug number,
 and then just do it. (No need for further approval or coordination.)
 
@@ -575,7 +574,7 @@ mind and only do it when absolutely necessary.
 ## Past the drop window?
 
 In this case, it is completely past the drop window, after EPP packages
-have been built. In this case, you still need to post to cross-project
+have been built. In this case, you still need to post to simrel-dev
 list, with bug number, and relevant questions and answers from above
 list, but now explicit review/permission from Planning Council is also
 required. Please follow the [Planning Council Exception

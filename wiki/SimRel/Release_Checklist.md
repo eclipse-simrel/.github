@@ -33,8 +33,8 @@ href="https://ci.eclipse.org/simrel/job/simrel.check_infocenter">https://ci.ecli
 <td><p>Check mirrors</p></td>
 <td><ul>
 <li>Run the <a
-href="https://git.eclipse.org/r/plugins/gitiles/simrel/org.eclipse.simrel.tools/+/master/checkMirrorsUtility/checkMirrors.sh">org.eclipse.simrel.tools/checkMirrorsUtility/checkMirrors.sh
-script</a> from a local machine</li>
+href="https://github.com/eclipse-simrel/simrel.tools/blob/main/checkMirrorsUtility/checkMirrors.sh">/simrel.tools/checkMirrorsUtility/checkMirrors.sh</a> script
+from a local machine</li>
 <li>Result should show 25+ mirrors for current release</li>
 </ul></td>
 <td><p>SimRel release engineer</p></td>
@@ -90,7 +90,7 @@ href="https://wiki.eclipse.org/Simultaneous_Release">https://wiki.eclipse.org/Si
 <td><p>SimRel release engineer</p></td>
 </tr>
 <tr class="even">
-<td><p>Send announcement email to cross-project-issues-dev mailing
+<td><p>Send announcement email to the https://accounts.eclipse.org/mailing-list/simrel-dev mailing
 list</p></td>
 <td></td>
 <td><p>SimRel release engineer</p></td>

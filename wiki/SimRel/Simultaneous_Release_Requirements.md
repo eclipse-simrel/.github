@@ -69,15 +69,14 @@ the year.
 Every project team must designate one or more committers to represent
 the interests of the project in matters related to the simultaneous
 release. These representatives must subscribe to the
-[cross-projects-issues-dev mailing
-list](https://dev.eclipse.org/mailman/listinfo/cross-project-issues-dev).
+[simrel-dev mailing list](https://accounts.eclipse.org/mailing-list/simrel-dev).
 
 #### How to announce your participation
 
 For projects that **did not** participate in the previous simultaneous
 release, the project team's representative must state the project's
-intent to do so via the [cross-projects-issues-dev mailing
-list](https://dev.eclipse.org/mailman/listinfo/cross-project-issues-dev)
+intent to do so via the [simrel-dev mailing
+list](https://accounts.eclipse.org/mailing-list/simrel-dev)
 before the **milestone 1 (M1)** date of the release.
 
 For projects that **did** participate in the previous simultaneous
@@ -110,8 +109,7 @@ be followed.
 
 A project representative can declare the project team's intent to
 drop-off the simultaneous release at any time by sending a note to the
-[cross-projects-issues-dev mailing
-list](https://dev.eclipse.org/mailman/listinfo/cross-project-issues-dev).
+[simrel-dev mailing list](https://accounts.eclipse.org/mailing-list/simrel-dev).
 
 > Note that marking an `aggrcon` file as disabled is considered a
 > temporary state. The `aggrcon` must be removed from the repository for
@@ -244,17 +242,10 @@ you want the safety of that redundancy.
 ### Communication
 
 At least one person from each project in a Simultaneous Release must
-subscribe to [cross-project mailing
-list](https://dev.eclipse.org/mailman/listinfo/cross-project-issues-dev),
+subscribe to [simrel-dev mailing
+list](https://accounts.eclipse.org/mailing-list/simrel-dev),
 since that is the primary communication channel for issues related to
-the Simultaneous Release. Also, at least one person from each project
-must subscribe to cross-project Bugzilla inbox (add
-cross-project.inbox@eclipse.org to the "Add users to my watch list" box
-at the bottom of your [Bugzilla email
-preferences](https://bugs.eclipse.org/bugs/userprefs.cgi?tab=email)
-page), as that is the primary Bugzilla components for bugs that are
-truly cross-project, or bugs which are not known to be in one particular
-component.
+the Simultaneous Release. 
 
 Your representative to the Planning Council, either from PMC or
 Strategic Member, must attend Planning Council meetings and represent

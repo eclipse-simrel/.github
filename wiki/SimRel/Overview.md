@@ -8,8 +8,7 @@ Each participating project is responsible for doing their own local
 build. They are free to use whatever technology makes sense to them.
 
 Each project is required to have at least one representative on our
-[cross-project mailing
-list](https://dev.eclipse.org/mailman/listinfo/cross-project-issues-dev)
+[simrel-dev mailing list](https://accounts.eclipse.org/mailing-list/simrel-dev)
 to monitor and participate in simultaneous-release-specific
 communication. Communication is pretty key early on to avoid things like
 dependency duplication (multiple versions of the same library) and such.
@@ -67,7 +66,7 @@ on offset "+2", the über repository should contain all the bits from all
 the projects that declared as "+1" (so the repository can be used by the
 "+2" projects to test). During aggregation, dependency problems may be
 discovered. If dependencies cannot be resolved, the offending project
-bits are excluded and an email is sent to the cross-project list for
+bits are excluded and an email is sent to the simrel-dev list for
 mitigation. While building up to a milestone or release, the aggregated
 repository is moved to a ["staging"
 repository](http://download.eclipse.org/staging/) for early testing by
@@ -75,7 +74,7 @@ committers, and once final, the staging area is moved to a ["releases"
 repository](http://download.eclipse.org/releases/). To know when things
 are "final", we do not have an "affirmation" check-off, but depend
 simply on the planned date, and then rely on the projects to notify us
-on cross-project list if they are late, need a little more time, or need
+on simrel-dev list if they are late, need a little more time, or need
 a re-build for some serious problem after their agreed offset.
 
 On "+4" the [EPP](http://www.eclipse.org/epp/) build meister runs the

@@ -47,19 +47,19 @@ reserved for final, in depth testing, and preparation for release.
 Emergency rebuilds might be considered, by following the usual [Planning
 Council Exception
 Process](https://wiki.eclipse.org/SimRel/Simultaneous_Release_Requirements/Appendix#Planning_Council_Exception_Process),
-but only for serious, blocking regressions that have a "cross-project"
+but only for serious, blocking regressions that have a SimRel
 impact.
 
 ### Communication Channels
 
-#### Cross-Project Milestone & RC Status Reporting
+#### SimRel Milestone & RC Status Reporting
 
 Only negative status needs to be reported. It is essential for many
 aspect of the simultaneous release that communication be prompt and
 clear, on many topics. One of the most important ones, is if someone is
 not meeting some date or delivery. Put another way, we assume everyone
 is on target and has delivered their stuff unless a note is sent to
-cross-project list that you are delayed. Its better to be up front about
+simrel-dev list that you are delayed. Its better to be up front about
 it, so everyone knows what to expect, rather than to hope things turn
 out OK at the very last minute, since if you "miss" without saying
 anything you are more likely to impact other people, and miss your
@@ -73,25 +73,10 @@ not a "project" per se, it will use the same structure:
 
 ##### Developer mailing list
 
--   [cross-projects-issues-dev](https://dev.eclipse.org/mailman/listinfo/cross-project-issues-dev) -
-    mailing list for developers and releng (see
-    [archives](http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/threads.html)).
+-   [simrel-dev](https://accounts.eclipse.org/mailing-list/simrel-dev) -
+    mailing list for developers and releng.
     This is the list to use to discuss build issues, announce changes in
     plans, slippage in deliverables, etc.
-
-##### Bugzilla
-
-If there is any doubt about where a bug belongs, it can always start in
-the "Cross-Project" component. (Under Eclipse Foundation \> Community).
-If it turns out to be a single project's responsibility, it can be moved
-to that project. If it is a true cross-project bug, where several
-projects need to act, then it can stay in the cross-project component.
-
--   [Search](https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Eclipse+Foundation&product=Community&component=Cross-Project&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=)
-    in Eclipse Foundation \> Community \> Cross-Project
--   Open a new
-    [Cross-Project](https://bugs.eclipse.org/bugs/enter_bug.cgi?assigned_to=cross-project.inbox%40eclipse.org&product=Community&component=Cross-Project)
-    bug
 
 ##### The Planning Council Mailing List
 
