@@ -21,7 +21,7 @@ existing simultaneous releases from the current and previous years.
 <tr class="odd">
 <td><p>2025-06 (Future release)</p></td>
 <td><p>4.36</p></td>
-<td><p>June 11, 2024</p></td>
+<td><p>June 11, 2025</p></td>
 <td><p><a
 href="SimRel/2025-06.md">Wiki</a><br />
 <!-- Uncomment on release day
