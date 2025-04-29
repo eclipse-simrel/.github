@@ -1,7 +1,9 @@
+# SimRel Release Checklist
+
 This is a chronological list of things to do before, on and after a
 release day.
 
-# Before release day
+## Before release day
 
 <table>
 <thead>
@@ -50,7 +52,7 @@ href="https://ci.eclipse.org/simrel/">https://ci.eclipse.org/simrel/</a></li>
 </tbody>
 </table>
 
-# On release day
+## On release day
 
 <table>
 <thead>
@@ -149,7 +151,7 @@ href="https://newsroom.eclipse.org/eclipse/community-news/">https://newsroom.ecl
 <td><ul>
 <li>Determine final commit</li>
 <li>Tag <a
-href="https://git.eclipse.org/r/plugins/gitiles/simrel/org.eclipse.simrel.build/">org.eclipse.simrel.build</a>
+href="https://github.com/eclipse-simrel/simrel.build</a>
 with release name (e.g. '2018-12')</li>
 </ul></td>
 <td><p>SimRel release engineer</p></td>
@@ -158,15 +160,13 @@ with release name (e.g. '2018-12')</li>
 <td><p>Update build configuration</p></td>
 <td><ul>
 <li>Update TRAIN_NAME in <a
-href="https://git.eclipse.org/r/plugins/gitiles/simrel/org.eclipse.simrel.build/+/master/Jenkinsfile">Jenkinsfile</a></li>
+href="https://github.com/eclipse-simrel/simrel.build/blob/main/Jenkinsfile">Jenkinsfile</a></li>
 <li>Update trainName, referenceRepo, eclipse.repo.url in <a
-href="https://git.eclipse.org/r/plugins/gitiles/simrel/org.eclipse.simrel.build/+/master/pom.xml">pom.xml</a></li>
-<li>Update release name label in simrel.aggr (see <a
-href="https://git.eclipse.org/r/c/simrel/org.eclipse.simrel.build/+/170670">an
-example</a>)</li>
+href="https://github.com/eclipse-simrel/simrel.build/blob/main/pom.xml">pom.xml</a></li>
+<li>Update release name label in simrel.aggr</li>
 </ul>
 <p>=&gt; Use <a
-href="https://git.eclipse.org/c/simrel/org.eclipse.simrel.tools.git/tree/nextReleaseUtils/update_build_configuration.sh">update_build_configuration.sh</a>
+href="https://github.com/eclipse-simrel/simrel.tools/blob/main/nextReleaseUtils/update_build_configuration.sh">update_build_configuration.sh</a>
 script (execute on local machine for now)</p></td>
 <td><p>SimRel release engineer</p></td>
 </tr>

@@ -661,5 +661,4 @@ href="https://wiki.eclipse.org/Callisto_Simultaneous_Release">Wiki</a></p></td>
 
 ## More Information
 
--   [Overview of the Simultaneous Release
-    Process](SimRel/Overview.md) for projects
+- [Overview of the Simultaneous Release Process](SimRel/Overview.md)
