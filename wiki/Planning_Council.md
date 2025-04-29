@@ -16,24 +16,28 @@ From the [Eclipse IDE Working Group Charter](https://www.eclipse.org/org/working
 > - One representative designated for each Strategic Member; and
 > - Additional representatives as approved by the Steering Committee.
 > 
-> The Planning Council elects a chair of the Planning Council. This chair is elected among the members of the Council. They will serve for a 12 month period or until their successor is elected and qualified, or as otherwise provided for in this Charter.
+> The Planning Council elects a chair of the Planning Council.
+> This chair is elected among the members of the Council.
+> They will serve for a 12 month period or until their successor is elected and qualified, or as otherwise provided for in this Charter.
 
 The current membership of the Planning Council is listed on [the Eclipse IDE Working Group](https://eclipseide.org/working-group/planning-council/) website.
 
 ## Communication
 
-The Eclipse Planning Council generally meets on Zoom once per month and communicates and makes decisions on the [planning council mailing list](https://accounts.eclipse.org/mailing-list/eclipse.org-planning-council). 
+The Eclipse Planning Council generally meets on Zoom once per month and communicates and makes decisions on the [Planning Council mailing list](https://accounts.eclipse.org/mailing-list/eclipse.org-planning-council).
 
 ### Call and Meeting Schedule
 
 Planning Council calls take place the first Wednesday of each month.
-A Google [calendar](https://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&ctz=America/New_York) <!-- markdown-link-check-disable-line --> is used to manage call dates and times. The calendar is available in the following formats:
+A Google [calendar](https://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&ctz=America/New_York) <!-- markdown-link-check-disable-line --> is used to manage call dates and times.'
+The calendar is available in the following formats:
 [iCal](https://www.google.com/calendar/ical/gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com/public/basic.ics) <!-- markdown-link-check-disable-line -->, 
 [HTML](https://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&amp;ctz=America/New_York) <!-- markdown-link-check-disable-line --></p>
 
 #### Logistics
 
-Join from PC, Mac, Linux, iOS or Android:
+Join from Windwos, Mac, Linux, iOS or Android:
+
 <https://eclipse.zoom.us/j/928841320?pwd=WG9EeVl3ZjZweWNGb1BCclVYaEhEZz09>
 
 **Meeting ID: 928 841 320**
@@ -57,7 +61,7 @@ Telephone Dial in (for higher quality, dial a number based on your curr
 
 </details>
 
-### Meeting notes
+### Meeting Minutes
 
  - [2025-04-02](Planning_Council/2025-04-02.md)
  - [2025-03-05](Planning_Council/2025-03-05.md)
@@ -105,8 +109,7 @@ Eclipse IDE WG onsite meeting
  
 # Links
 
-- [Planning Council Mailing list
-archive](https://www.eclipse.org//lists/eclipse.org-planning-council/maillist.html)
+- [Planning Council Mailing list archive](https://www.eclipse.org//lists/eclipse.org-planning-council/maillist.html)
 - [Index of simultaneous releases](Simultaneous_Release.md)
-- [Simultaneous_Release_Roles](SimRel/Simultaneous_Release_Roles.md)
+- [Simultaneous Release Roles](SimRel/Simultaneous_Release_Roles.md)
 

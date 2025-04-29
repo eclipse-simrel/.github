@@ -1,18 +1,44 @@
+<img src="../assets/artwork/svg/SimRel-Color.svg" width="10%">
+
+---
+
 # Eclipse IDE Simultaneous Release (SimRel)
 
-The [Eclipse Foundation](https://wiki.eclipse.org/Foundation) and its community of projects and contributors produce releases on a coordinated schedule that are often referred to as *simultaneous release*, *coordinated release* or *release train* of Eclipse.
+A number of Eclipse projects harmonize their development activities to produce releases on a coordinated schedule 
+to produce the so-called *simultaneous release*, *coordinated release*, or *release train* of Eclipse.
 
-This folder provides the "wiki" for the Eclipse SimRel and Eclipse Planning Council.
-The main pages on this wiki are:
+---
 
-- [Eclipse Simultaneous Release](Simultaneous_Release.md)
+#### Planning Council
+
+This folder provides the wiki for the Eclipse Planning Council, which helps manage, direct, and schedule the SimRel activities.
+
 - [Eclipse Planning Council](Planning_Council.md)
 
-Pull requests are welcome for these pages.
+---
+
+#### SimRel Details
+
+This folder also provides provides details about the processes involved in producing the quarterly release, including schedules:
+
+- [SimRel Schedule](Simultaneous_Release.md)
+- [SimRel Overview](SimRel/Overview.md)
+- [SimRel Requirements](SimRel/Simultaneous_Release_Requirements.md)
+- [SimRel Roles](SimRel/Simultaneous_Release_Roles.md)
+- [SimRel Contribution](SimRel/Contributing_to_Simrel_Aggregation_Build.md)
+- [SimRel FAQ](SimRel/Simultaneous_Release_Cycle_FAQ.md)
+- [SimRel Checklist](SimRel/Release_Checklist.md)
+
+---
 
 #### Why this format?
 
-You may be wondering why this format for the pages?
-The information in this folder used to be stored at [wiki.eclipse.org](https://wiki.eclipse.org/), but in early 2024 that wiki [will be made read-only](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/Wiki-shutdown-plan).
-The GitHub built-in wiki was determined to be insufficient (non-committers can't easily contribute - no PRs, folder nesting is not fully supported and overall navigation is somewhat limited), therefore simply storing the files as markdown directly in this repository seemed the best solution.
-Contributions that turn these markdown files into HTML, using technology like Jekyll and GitHub pages would be very welcome.
+You may be wondering why this format for the wiki pages?
+The information in this folder was previously hosted at [wiki.eclipse.org](https://wiki.eclipse.org/),
+but in early 2024 that wiki [was made read-only](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/Wiki-shutdown-plan).
+The GitHub built-in wiki was determined to be insufficiently flexible.
+- Non-committers can't easily contribute due to lack of support for Pull Requests.
+- Folder nesting is not fully supported.
+- Overall navigation is somewhat limited.
+
+Therefore simply storing the files as markdown directly in this repository seemed the best solution.
