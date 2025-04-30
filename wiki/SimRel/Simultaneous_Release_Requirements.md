@@ -72,17 +72,9 @@ For projects that **did** participate in the previous simultaneous release,
 the project team's representative must `touch` the project's `aggrcon` file by the **milestone 2 (M2)** date of the release to indicate that the project wishes to continue participating
 and that the project team is paying attention.
 
-A [release record](https://www.eclipse.org/projects/handbook/#pmi-releases) for the release that is to be contributed must exist before the **milestone 1 (M1)** date.
-If a project team intends to contribute the same content as was contributed in the previous release,
-then no new release record is required.
-If new content (and, by extension, a new release) is to be contributed,
-then a new release record must be created.
-The regular [release review process](https://www.eclipse.org/projects/handbook/#release-review) must be followed.
-
-> Note that the 2018 edition of the Eclipse Development Process introduces a new notion of a [Progress Review](https://www.eclipse.org/projects/dev_process/#6_3_5_Progress_Review).
-> Projects may push out releases for a full calendar year following a successful Release Review or a Progress Review.
-> Note also that this does not excuse the project team from the obligations of the Eclipse IP Policy
-> all intellectual property must be fully vetted before it may be included in any release.
+Projects are required to follow the
+[Eclipse Development Process](https://www.eclipse.org/projects/handbook/#pmi-releases)
+and to contribute only fully vetted intellectual property.
 
 #### Dropping off
 
@@ -95,61 +87,6 @@ A project representative can declare the project team's intent to drop-off the s
 If you have any questions,
 please contact your PMC's Planning Council Representative,
 or the [EMO](mailto:emo@eclipse.org).
-
-### Formal (standard format) plans, early (M1)
-
-All projects must have their project plan in the Eclipse Foundation standard format,
-i.e., create a [release record](https://www.eclipse.org/projects/handbook/#pmi-releases) in the PMI for your project.
-Committing to be in the Simultaneous Release means you commit to having these plans available early: by M1 at the latest.
-Naturally, plans will change as development continues,
-and we encourage teams to update them periodically,
-such as every milestone,
-to reflect reality and progress,
-but an initial version is required by at least M1 should be a clear statement of what was planned,
-what was achieved,
-and what was deferred.
-Every plan,
-for any release,
-should have some specific items covered,
-such as *Target Environments* and *Compatibility with Previous Releases*
-but we give some specific guidance here since these are so important to adoption.
-In addition, we do ask for one extra "theme" item,
-that is technically required only for the Simultaneous Release.
-What you plan,
-is up to each project,
-we just want to be sure its clear for adopters and downstream projects.
-
-#### Target Environments
-
-Exactly what platforms and runtimes a project supports is up to them and their community,
-but it is required that all projects document what platforms they support,
-especially if they have native (non-Java) code
-and especially if it is different than the [et of platforms supported by the Eclipse Platform.
-
-#### Compatibility with Previous Releases
-
-It should be part of every project's plan to have a section detailing compatibility with previous releases.
-This should not only include commitments to API and binary compatibility,
-but ideally would also include plans for source compatibility, workspace compatibility,
-and project "coexistence" compatibility.
-
-### IP Documentation and Logs (RC1)
-
-Projects must have their IP logs approved (a normal Eclipse requirement) but follow the earlier deadlines set by EMO and IP staff.
-The IP log deadline is typically mid-week RC1.
-
-### Release Review and compliance to requirements documentation (RC2)
-
-The release review documentation must be complete by the date specified by the EMO,
-which is earlier than it would be for other releases.
-(Typically mid-week during RC2.)
-In addition to normal release plan requirements,
-for a Simultaneous Release,
-Project Leads must document their verification that the project complies with all extra requirements of this Simultaneous Release document,
-as they apply to their project,
- and document any exceptions,
- there in the release review documentation.
-This is intended to be a few short sentences or paragraphs, not a detailed checklist.
 
 ## Mandatory Requirements for the Simultaneous Repository and EPP
 
@@ -225,12 +162,6 @@ A build-team member or release engineer from each project must be "on call" duri
 
 Projects must use 4-part version numbers following the common semantics described in the [Eclipse version numbering](https://github.com/eclipse-platform/eclipse.platform/blob/master/docs/VersionNumbering.md) document.
 
-#### OSGi bundle format
-
-All plug-ins (bundles) must use the true bundle form.
-That is, provide a manifest.mf file, and not rely on the plugin.xml file being 'translated' into a manifest.mf file at initial startup.
-With that, empty plugin.xml files in the presence of a manifest.mf file should not be included in a bundle.
-
 #### Execution Environment
 
 All plug-ins (that contain Java code) must correctly specify their
@@ -245,7 +176,7 @@ Resource-only bundles do not need a BREE since it doesn't matter which version o
 #### Signing
 
 All plug-ins contributed to SimRel must be signed with Eclipse Foundation provided keys.
-The signing can be completed with Jar Signing, or PGP signing, or both if desired.
+The signing can be completed with Jar signing, or PGP signing, or both if desired.
 
 ##### Jar Signing
 
@@ -289,15 +220,30 @@ see [EPL License Feature](https://github.com/eclipse-cbi/epl-license-feature/blo
 
 ### Re-use and share common third party code
 
-Any third-party plug-ins that are common between projects must be consumed via [Eclipse Orbit](https://github.com/eclipse-orbit/.github/blob/main/profile/README.md).
-The Simultaneous Release must not have duplicate third-party libraries.
+Any third-party plug-ins that are common between projects must be consumed via 
+[Eclipse Orbit](https://github.com/eclipse-orbit/.github/blob/main/profile/README.md),
+or if available from Maven Central as an OSGi artifact,
+maybe be consumed directly from Maven Central,
+in which case it should be PGP signed and **not** Jar signed.
+Third party libraries must not be repackaged as bundles
+and distributed with a bundle symbolic name
+that has the potential to conflict with a bundle symbolic name used by another  project.
+
+The Simultaneous Release must avoid unnecessary duplicate third-party libraries.
 Note that this only applies to versions of the libraries;
 thus if project A requires foo.jar 1.6 and project B uses foo.jar 1.7,
-that's normally OK.
-Different service versions a little less OK,
-such as 1.7.1 vs 1.7.2; those should be explained, if required.
-A qualifier-only
-difference is definitely not OK.
+that's to be avoided but is OK if there is a good reason,
+e.g., if the bundle does not use proper semantic versioning.
+Different service versions are generally not OK,
+such as 1.7.1 vs 1.7.2;
+those should be explained, if required.
+A qualifier-only difference is definitely not OK.
+
+The reports labeled
+![oomph](https://raw.githubusercontent.com/eclipse-oomph/oomph/master/plugins/org.eclipse.oomph.setup.ui/icons/oomph16.png) `Oomph Report`
+on the CI instance provide details about duplicates:
+
+[https://ci.eclipse.org/simrel/](https://ci.eclipse.org/simrel/)
 
 ### Provide optimized p2 repository
 
