@@ -2,7 +2,7 @@
 
 ---
 
-# Eclipse IDE Simultaneous Release (SimRel)
+# SimRel Wiki
 
 A number of Eclipse projects harmonize their development activities to produce releases on a coordinated schedule 
 to produce the so-called *simultaneous release*, *coordinated release*, or *release train* of Eclipse.
@@ -25,6 +25,7 @@ This folder also provides provides details about the processes involved in produ
 - [SimRel Overview](SimRel/Overview.md)
 - [SimRel Requirements](SimRel/Simultaneous_Release_Requirements.md)
 - [SimRel Roles](SimRel/Simultaneous_Release_Roles.md)
+- [SimRel Plan](SimRel/Simultaneous_Release_Plan.md)
 - [SimRel Contribution](SimRel/Contributing_to_Simrel_Aggregation_Build.md)
 - [SimRel FAQ](SimRel/Simultaneous_Release_Cycle_FAQ.md)
 - [SimRel Checklist](SimRel/Release_Checklist.md)

@@ -1,4 +1,4 @@
-## Simultaneous Release Roles
+## SimRel Roles
 
 Many tasks and activities must take place to produce our [Simultaneous Release](../Simultaneous_Release.md),
 and the [Planning Council](../Planning_Council.md) is responsible for many of those tasks and activities.

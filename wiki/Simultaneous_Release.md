@@ -1,4 +1,4 @@
-# Eclipse IDE Simultaneous Release (SimRel)
+# Eclipse IDE SimRel Schedule
 
 The [Eclipse Foundation](https://wiki.eclipse.org/Foundation) and its community of
 projects and contributors produce releases on a coordinated schedule
