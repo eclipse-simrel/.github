@@ -19,6 +19,7 @@ The [SimRel Wiki](../wiki/README.md) provides details about the processes involv
 - [SimRel Overview](../wiki/SimRel/Overview.md)
 - [SimRel Requirements](../wiki/SimRel/Simultaneous_Release_Requirements.md)
 - [SimRel Roles](../wiki/SimRel/Simultaneous_Release_Roles.md)
+- [SimRel Plan](../wiki/SimRel/Simultaneous_Release_Plan.md)
 - [SimRel Contribution](../wiki/SimRel/Contributing_to_Simrel_Aggregation_Build.md)
 - [SimRel FAQ](../wiki/SimRel/Simultaneous_Release_Cycle_FAQ.md)
 - [SimRel Checklist](../wiki/SimRel/Release_Checklist.md)

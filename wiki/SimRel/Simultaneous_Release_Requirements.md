@@ -1,4 +1,4 @@
-# The Eclipse Simultaneous Release Requirements
+# SimRel Requirements
 
 Updated April 28, 2025
 
