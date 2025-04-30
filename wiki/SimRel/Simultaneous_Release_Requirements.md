@@ -6,7 +6,7 @@ Authored and maintained by the [Eclipse Planning Council](../Planning_Council.md
 For errors or omissions please [open an issue](https://github.com/eclipse-simrel/.github/issues).
 
 This document defines the rules and criteria for participating in the Simultaneous Release.
-The simultaneous release occurs each year in March, June, September, and December .
+The simultaneous release occurs each year in March, June, September, and December.
 There are more criteria than when releasing at other times.
 There are more requirements partially because there are more projects releasing at once,
 so the workload needs to streamlined and made uniform.
@@ -53,13 +53,13 @@ Some of those are required to be completed **early in the release cycle**.
 
 A project can join the Simultaneous Release at any release cycle during the year.
 
-> Note that the list of projects that participate in the simultaneous release is determined by aggregation files in the 
+> Note that the list of projects that participate in the simultaneous release is determined by aggregation files in the
 > [*aggregation* repository](https://github.com/eclipse-simrel/simrel.build).
 > Participating projects must keep their `aggrcon` files up-to-date.
 
 Every project team must designate one or more committers to represent the interests of the project in matters related to the simultaneous release.
 These representatives must subscribe to the
-[simrel-devlist](https://accounts.eclipse.org/mailing-list/simrel-dev) mailing list0.
+[simrel-devlist](https://accounts.eclipse.org/mailing-list/simrel-dev) mailing list.
 
 #### How to announce your participation
 
@@ -156,7 +156,7 @@ This is intended to be a few short sentences or paragraphs, not a detailed check
 The requirements in this section were historically called "the must do" items;
 they are a "must" not for the release,
 but must be met for a project to be in the common, central repository.
-The common repo is for end users to discover easily and therefore (per EPP Policy) are the minimum requirements to be included in EPP Packages.
+The common repository is for end users to discover easily and therefore (per EPP Policy) are the minimum requirements to be included in EPP Packages.
 The criteria in this section are designed to make sure projects work relatively well,
 work well together,
 and can be installed together.
@@ -204,7 +204,7 @@ if you want the safety of that redundancy.
 
 At least one person from each project in a Simultaneous Release must subscribe to
 [simrel-dev](https://accounts.eclipse.org/mailing-list/simrel-dev) mailing list,
-since that is the primary communication channel for issues related to the Simultaneous Release 
+since that is the primary communication channel for issues related to the Simultaneous Release
 
 Your representative to the Planning Council,
 either from PMC or Strategic Member,
@@ -221,7 +221,7 @@ A build-team member or release engineer from each project must be "on call" duri
 
 ### Required Bundle forms and formats
 
-#### Version Numbering 
+#### Version Numbering
 
 Projects must use 4-part version numbers following the common semantics described in the [Eclipse version numbering](https://github.com/eclipse-platform/eclipse.platform/blob/master/docs/VersionNumbering.md) document.
 
@@ -233,7 +233,7 @@ With that, empty plugin.xml files in the presence of a manifest.mf file should n
 
 #### Execution Environment
 
-All plug-ins (that contain Java code) must correctly specify their 
+All plug-ins (that contain Java code) must correctly specify their
 [Bundle Required Execution Environment (BREE)](https://github.com/eclipse-pde/eclipse.pde/blob/master/docs/Execution_Environments.md).
 Resource-only bundles do not need a BREE since it doesn't matter which version of Java they are used with.
 
@@ -252,14 +252,16 @@ The signing can be completed with Jar Signing, or PGP signing, or both if desire
 The Eclipse Foundation makes a centralized Eclipse Certificate available to all projects that can be used for Jar signing.
 The Jar signing can be done using the centralized Eclipse Certificate which is accessible using the [Eclipse CBI Maven plug-in](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/IT_Infrastructure_Doc#jar-signing).
 
-Jars should generally Jar signed only by their original creator and should not be re-signed by other projects.
+Jars should generally be Jar signed only by their original creator and should not be re-signed by other projects.
 
 ##### PGP Signing
 
 The Eclipse Foundation provides individual PGP keys for each project that allows projects to sign their deliverables, including Eclipse Plug-ins.
 
-The signing can be done with the [Tycho GPG plug-in](https://tycho.eclipseprojects.io/doc/latest/tycho-gpg-plugin/sign-p2-artifacts-mojo.html).
-For details on obtaining PGP keys for your project see the [IT Infrastructure section on PGP signing](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/IT_Infrastructure_Doc#what-about-gpg-signing).
+The signing can be done with the
+[Tycho GPG plug-in](https://tycho.eclipseprojects.io/doc/latest/tycho-gpg-plugin/sign-p2-artifacts-mojo.html).
+For details on obtaining PGP keys for your project see the
+[IT Infrastructure section on PGP signing](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/IT_Infrastructure_Doc#what-about-gpg-signing).
 
 This is the main methodology to sign third-party content contributed to SimRel,
 but can be used for Eclipse content too.
@@ -269,7 +271,7 @@ See the [Eclipse Orbit](https://github.com/eclipse-orbit/.github/blob/main/profi
 
 Projects must use jarred plug-ins (with unpack=false) unless there are technical reasons not to, i.e., require the directory form.
 
-#### License text consistency 
+#### License text consistency
 
 Use standard forms of license documents so they are displayed in the most usable,
 and concise way during install and update.
@@ -303,7 +305,8 @@ Projects must provide their own project p2 repository for their own project and 
 Projects must [optimize their p2 repositories](https://github.com/eclipse-equinox/p2/blob/master/docs/p2_index.md)
 to reduce bandwidth utilization and provide a better install and update experience for users.
 
-In addition, they must provide their artifacts and metadata in a specified format and method to allow at least parts of their repository to be aggregated and mirrored to a common repository.
+In addition, they must provide their artifacts and metadata in a specified format
+and method to allow at least parts of their repository to be aggregated and mirrored to a common repository.
 The [current process](Contributing_to_Simrel_Aggregation_Build.md) may be modified throughout the year, if improvements can be made.
 
 Feature "includes" must be strict,
@@ -333,9 +336,9 @@ For "how to" information, see [p2.mirrorsURL](https://github.com/eclipse-equinox
 Note: this is not really a "Simultaneous Release Requirement" but is required of any p2 repository on Eclipse Foundation infrastructure,x
 and is just documented here to help spread the word and educate newcomers.
 
-Similar to p2.mirrorsURL attribute, a well behaved, well optimized p2 repository should contain a p2.index file.
+Similar to p2.mirrorsURL attribute, a well-behaved, well-optimized p2 repository should contain a p2.index file.
 This is especially important for "composite repos" and prevents unnecessary "round trips" to server looking for files.
-See for history and for how-to instructions, see the [p2.index](https://github.com/eclipse-equinox/p2/blob/master/docs/p2_index.md).
+For how-to instructions, see the [p2.index](https://github.com/eclipse-equinox/p2/blob/master/docs/p2_index.md).
 Again, this is not so much a "Simultaneous Release Requirement" but is recommended of any p2 repository on Eclipse Foundation infrastructure,
 and is just documented here to help spread the word and educate newcomers.
 
@@ -365,7 +368,6 @@ For example, from Neon (2016) to Oxygen (2017).
 details TBD (see ),
 is for there to be a field in the PMI Release Record that must be checked "Yes" or "No".\]
 To meet this requirement in the affirmative:
-
 
 - The project will accept bugs as valid if an update does not work, or there is a functional problem after updating.
 - The project will test such updates.
@@ -399,9 +401,9 @@ but exactly what they do is up to the best judgment of the project and their com
 
 ## Planning Council Exception Process
 
-Exceptions for any rule or schedule can be made if there are good enough reasons to.
+Exceptions for any rule or schedule can be made if there are good enough reasons to do so.
 This same exception process will be followed for things like "requests to respin" a build after a deadline.
-The process to get any exception must be open and well documented and follow these steps:
+The process to get any exception must be open and well-documented and follow these steps:
 
 1. The Project's PMC must approve the request for an exception and it is the PMC (not the lone Project or committer) that makes the request to the Planning Council.
    The Planning Council member that represents the PMC is the one to bring the issue forward to the Planning Council.
@@ -414,7 +416,7 @@ The process to get any exception must be open and well documented and follow the
    to allow times for concerns or negative votes to be voiced even after 3 positive votes.
    If there are not enough positive votes within one week,
    then the request for exception will be considered 'failed'.
-   Note that "3" was chosen under the assumption that the Planning Council member representing the PMC would vote for it, 
+   Note that "3" was chosen under the assumption that the Planning Council member representing the PMC would vote for it,
    since that PMC must approve it initially, so that means 2 others must also vote for it, for 3 total.
 
 Depending on the timing, the issue and votes will be documented in either the Planning Council Meeting minutes, or on the Planning Council mailing list.
