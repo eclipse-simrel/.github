@@ -245,48 +245,55 @@ on the CI instance provide details about duplicates:
 
 [https://ci.eclipse.org/simrel/](https://ci.eclipse.org/simrel/)
 
-### Provide optimized p2 repository
+### Do not include non-project content in features
 
-Projects must provide their own project p2 repository for their own project and updates.
-Projects must [optimize their p2 repositories](https://github.com/eclipse-equinox/p2/blob/master/docs/p2_index.md)
-to reduce bandwidth utilization and provide a better install and update experience for users.
+It's been common practice to include third-party bundles in a `feature.xml`:
+```
+<plugin id="org.apache.commons.commons-codec" version="0.0.0"/>
+```
+The p2 metadata induced from an include has, by design, a very restricted version range:
+```
+<required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.commons-codec' range='[1.16.0,1.16.0]'/>
+```
+This restricts the requirement to match exactly and only the one, specific version available during the build.
+This approach is appropriate for the project's own provided content,
+but when many projects do this for a third-party dependency
+and are building against different versions of that third-party dependency,
+we end up with duplicates in SimRel.
+Not only are duplicates generally redundant,
+sometimes when the duplicates are actually installed simultaneously,
+they cause wiring problems at runtime that breaks the provided functionality.
 
-In addition, they must provide their artifacts and metadata in a specified format
-and method to allow at least parts of their repository to be aggregated and mirrored to a common repository.
-The [current process](Contributing_to_Simrel_Aggregation_Build.md) may be modified throughout the year, if improvements can be made.
+Even worse,
+if a CVE is discovered for a third-party bundle,
+it's not possible to update an installation to remove the old bundle and replace it with a newer version
+without the feature provider also building a newer feature version that includes the newer bundle version.
+The inability to respond quickly to a security vulnerability is something that we must strive to avoid
+by ensuring that the version-range constraints on every third-party bundle is as wide as is semantically sensible.
 
-Feature "includes" must be strict,
-that is "include" an exact version of that other feature.
-This is required so installs and builds can be repeatable independent of the exact day of the install or the exact repos enabled.
-This is the way things are,
-and have been for years,
-and this statement is just making it explicit since technically it is possible for people to use some p2 publishers that don't have this predictability or repeatability
-(which can certainly be appropriate in some contexts, just not the Simultaneous Release repository).
-While there may, in the future, be new mechanisms that allow some "line up collection" to be specified,
-it will be something new, not changing the meaning of feature "includes" element via p2 metadata.
+It is significant to note too that bundle includes are generally redundant,
+i.e., if something (a bundle) actually requires the third-party bundle,
+it will declare that requirement in the `MANIFEST.MF`
+with an appropriate semantic version-range constraint.
+So the third-party bundle will be installed as required regardless of what the feature specifies,
+and with the necessary flexibility to update to a newer version without also updating the bundle that requires it.
 
-For similar reasons, the repositories produced and contributed must use p2 publishers that produce greedy='false' in the content metadata for runtime-optional dependencies.
-See and the [p2 Installable Units](https://github.com/eclipse-equinox/p2/blob/master/docs/Installable_Units.md) for some history and details on this issue of greedy versus non-greedy requirements.
-But in brief, to have a runtime-optional dependency be non-greedy is important for several reasons,
-especially in an IDE environment.
-First it gives ultimate control over what is installed to the user,
-based on their feature selection,
-instead of depending on what happens to be available from the repositories they are pointing to at that moment it time.
-It also makes it much easier for adopters to be able to predict (and maintain) what their users have installed.
-In fact, if something is runtime-optional,
-but pulled into an install because someone did not specify greedy='false' meta-data,
-there is no way an adopter can provide a patch feature to one of their customers if that optional bundle causes a bug.
+As such, including non-project bundles in features is not just discouraged, it is forbidden.
+Projects will be given time to adapt,
+but the Planning Council may choose to disable a project for violating this rule at its discretion.
 
-Everyone's p2 repositories must make use the of p2.mirrorsURL property.
-For "how to" information, see [p2.mirrorsURL](https://github.com/eclipse-equinox/p2/blob/master/docs/p2_index.md).
-Note: this is not really a "Simultaneous Release Requirement" but is required of any p2 repository on Eclipse Foundation infrastructure,x
-and is just documented here to help spread the word and educate newcomers.
-
-Similar to p2.mirrorsURL attribute, a well-behaved, well-optimized p2 repository should contain a p2.index file.
-This is especially important for "composite repos" and prevents unnecessary "round trips" to server looking for files.
-For how-to instructions, see the [p2.index](https://github.com/eclipse-equinox/p2/blob/master/docs/p2_index.md).
-Again, this is not so much a "Simultaneous Release Requirement" but is recommended of any p2 repository on Eclipse Foundation infrastructure,
-and is just documented here to help spread the word and educate newcomers.
+Often includes are specified to ensure that the bundle is aggregated by Tycho into the p2 update site.
+In order to ensure the project's p2 site is sufficiently complete with respect to transitive requirements,
+a project can take one of the following approaches:
+1.  Specify additional bundles directly in the `category.xml`, uncategorized.
+2.  Define a `dependencies` feature,
+    include the bundle in that feature,
+    specify that feature in the `category.xml`, uncategorized,
+    and **do not** contribute the feature to SimRel nor use it for any other purpose than in the `category.xml`.
+3.  Use advanced features of Tycho to include all transitive dependencies while filtering out the ones provided by other sites.
+    - [tycho-p2-repository:assemble-repository](https://tycho.eclipseprojects.io/doc/main/tycho-p2-repository-plugin/assemble-repository-mojo.html)
+    - [filter added repository](https://github.com/eclipse-tycho/tycho/blob/tycho-4.0.x/RELEASE_NOTES.md#new-option-to-filter-added-repository-references-when-assembling-a-p2-repository)
+    - [m2e-core example](https://github.com/eclipse-m2e/m2e-core/blob/db6dd23d3ee8d781b0238896324f0e09bb60a874/org.eclipse.m2e.repository/pom.xml#L53-L66)
 
 ### Branding
 
