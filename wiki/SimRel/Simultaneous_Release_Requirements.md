@@ -75,6 +75,8 @@ and that the project team is paying attention.
 Projects are required to follow the
 [Eclipse Development Process](https://www.eclipse.org/projects/handbook/#pmi-releases)
 and to contribute only fully vetted intellectual property.
+In the interest of enabling the assembly of cohesive products from the content contributed to the simultaneous release,
+projects are generally expected to conform to the [Eclipse UI Guidelines](https://eclipse-platform.github.io/ui-best-practices/).
 
 #### Dropping off
 
