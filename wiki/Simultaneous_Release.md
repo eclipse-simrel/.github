@@ -9,7 +9,7 @@ existing simultaneous releases from the current and previous years.
 
 <table>
 <thead>
-<tr class="header">
+<tr class="header">f2
 <th><p>Release name</p></th>
 <th><p>Platform version</p></th>
 <th><p>Release</p></th>
@@ -40,13 +40,11 @@ Repository</a>
 <td><p>September 10, 2025</p></td>
 <td><p><a
 href="SimRel/2025-09.md">Wiki</a><br />
-<!-- Uncomment on release day
 <a
 href="https://www.eclipse.org/downloads/packages/release/2025-09/r">Package
 Download Page</a><br />
 <a href="https://download.eclipse.org/releases/2025-09/">p2
 Repository</a>
--->
 </p></td>
 </tr>
 
