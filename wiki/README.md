@@ -30,6 +30,19 @@ This folder also provides provides details about the processes involved in produ
 - [SimRel FAQ](SimRel/Simultaneous_Release_Cycle_FAQ.md)
 - [SimRel Checklist](SimRel/Release_Checklist.md)
 
+#### Adding a new SimRel and its dates
+
+When adding a new simultaneous release and its dates, first add the JSON file containing the agreed dates for `M1`, `M2`, `M3`, `RC1`, `RC2` and `GA` in a JSON file named
+```
+wiki/SimRel/<SimRel-Name>_dates.json
+```
+where `<SimRel-Name>` is for example `2025-12`.
+
+To generate the wiki details page for that release, the following command can be run from the root of this repository (requiring Java-25 or later):
+```
+java scripts/generateReleaseDetails.java <SimRel-name>
+```
+
 ---
 
 #### Why this format?
