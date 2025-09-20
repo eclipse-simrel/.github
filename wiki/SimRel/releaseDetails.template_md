@@ -1,0 +1,23 @@
+This documents related to ${SIMREL_NAME}, the Eclipse Foundation's multi-project [Simultaneous Release](../Simultaneous_Release.md) of ${SIMREL_FULL_MONTH_YEAR}.
+
+## Common information
+
+- [Simultaneous Release Requirements](Simultaneous_Release_Requirements.md) (aka must-dos)
+- [Simultaneous Release Plan](Simultaneous_Release_Plan.md) Information that stays the same for each release, like requirements for participation, communication channels, etc.
+
+## Release schedule
+| **Release** | **Date** | **Span** | **Due dates** | **Notes** |
+|---|---|---|---|---|
+| **${SIMREL_NAME} M1** | ${M1_DATE_LONG} | ${M1_START_SHORT} to ${M1_END_SHORT} | <ul><li>Opt-in deadline (new projects only)</ul> | 4 weeks from ${PREVIOUS_SIMREL_NAME} GA |
+| **${SIMREL_NAME} M2** | ${M2_DATE_LONG} | ${M2_START_SHORT} to ${M2_END_SHORT} | | 3 weeks from M1 |
+| **${SIMREL_NAME} M3** | ${M3_DATE_LONG} | ${M3_START_SHORT} to ${M3_END_SHORT} | | 3 weeks from M2 |
+| **${SIMREL_NAME} RC1** | ${RC1_DATE_LONG} | ${RC1_START_SHORT} to ${RC1_END_SHORT} | <ul><li><b>No new features and APIs after this date!</b><li>New and Noteworthy entries due</ul> | 1 week from M3 |
+| **${SIMREL_NAME} RC2** | ${RC2_DATE_LONG} | ${RC2_START_SHORT} to ${RC2_END_SHORT} | | 1 week from RC1 |
+| **Quiet period** | | ${QUIET_PERIOD_START_SHORT} to ${QUIET_PERIOD_END_SHORT} | | No builds. It is assumed all code is done by end of RC2. |
+| **${SIMREL_NAME} GA** | ${GA_DATE_LONG} | | | 5 days from RC2 |
+
+[Google Calendar Link](https://calendar.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk@group.calendar.google.com&dates=${CALENDAR_PERIOD}&hl=en&mode=AGENDA)
+
+## Non-wiki pages related to the release
+
+[List of participating projects](https://projects.eclipse.org/releases/${SIMREL_NAME})
