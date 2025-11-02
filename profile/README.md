@@ -13,7 +13,7 @@ Planning Council meeting minutes, are maintained in the wiki:
 
 ## SimRel Wiki
 
-The [SimRel Wiki](../wiki/README.md) provides details about the processes involved in producing the quarterly release, including schedules:
+The SimRel Wiki provides details about the processes involved in producing the quarterly release, including schedules:
 
 - [SimRel Schedule](../wiki/Simultaneous_Release.md)
 - [SimRel Overview](../wiki/SimRel/Overview.md)
@@ -54,4 +54,4 @@ The self-documenting continuous integration instance provides useful information
 - [SimRel Staging Repositories](https://download.eclipse.org/staging/)
 - [Eclipse Packaging Project (EPP)](https://github.com/eclipse-packaging/packages/blob/master/README.md)
 - [EPP Release Repositories](https://download.eclipse.org/technology/epp/packages/)
-- [EPP Staging Repositories](https://download.eclipse.org/technology/epp/staging/repository/)
+- [EPP Staging Repository](https://download.eclipse.org/technology/epp/staging/repository/)

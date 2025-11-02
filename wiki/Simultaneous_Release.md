@@ -9,7 +9,7 @@ existing simultaneous releases from the current and previous years.
 
 <table>
 <thead>
-<tr class="header">f2
+<tr class="header">
 <th><p>Release name</p></th>
 <th><p>Platform version</p></th>
 <th><p>Release</p></th>
@@ -17,6 +17,38 @@ existing simultaneous releases from the current and previous years.
 </tr>
 </thead>
 <tbody>
+
+<tr class="odd">
+<td><p>2026-06 (Future release)</p></td>
+<td><p>4.40</p></td>
+<td><p>June 10, 2026</p></td>
+<td><p><a
+href="SimRel/2026-06.md">Wiki</a><br />
+<!-- Uncomment on release day
+<a
+href="https://www.eclipse.org/downloads/packages/release/2025-12/r">Package
+Download Page</a><br />
+<a href="https://download.eclipse.org/releases/2025-12/">p2
+Repository</a>
+-->
+</p></td>
+</tr>
+
+<tr class="even">
+<td><p>2026-03 (Future release)</p></td>
+<td><p>4.39</p></td>
+<td><p>March 11, 2026</p></td>
+<td><p><a
+href="SimRel/2026-03.md">Wiki</a><br />
+<!-- Uncomment on release day
+<a
+href="https://www.eclipse.org/downloads/packages/release/2025-12/r">Package
+Download Page</a><br />
+<a href="https://download.eclipse.org/releases/2025-12/">p2
+Repository</a>
+-->
+</p></td>
+</tr>
 
 <tr class="odd">
 <td><p>2025-12 (Future release)</p></td>
@@ -35,7 +67,7 @@ Repository</a>
 </tr>
 
 <tr class="even">
-<td><p>2025-09 (Future release)</p></td>
+<td><p>2025-09 (Current release)</p></td>
 <td><p>4.37</p></td>
 <td><p>September 10, 2025</p></td>
 <td><p><a
@@ -49,7 +81,7 @@ Repository</a>
 </tr>
 
 <tr class="odd">
-<td><p>2025-06 (Current release)</p></td>
+<td><p>2025-06 (Last release)</p></td>
 <td><p>4.36</p></td>
 <td><p>June 11, 2025</p></td>
 <td><p><a
@@ -63,7 +95,7 @@ Repository</a>
 </tr>
 
 <tr class="even">
-<td><p>2025-03 (Last release)</p></td>
+<td><p>2025-03</p></td>
 <td><p>4.35</p></td>
 <td><p>March 12, 2025</p></td>
 <td><p><a
@@ -188,6 +220,33 @@ Repository</a></p></td>
 </tbody>
 </table>
 
+## Adding a New SimRel Schedule
+
+When adding a new simultaneous release schedule,
+first add the `*json` file containing the dates for `M1`, `M2`, `M3`, `RC1`, `RC2` and `GA` as follows:
+```
+wiki/SimRel/<SimRel-Name>_dates.json
+```
+Here `<SimRel-Name>` is, for example, `2025-12`.
+
+To generate the wiki details page for that release,
+the following command can be run from the root of this repository,
+which requires Java-25 or later:
+```
+java scripts/generateReleaseDetails.java <SimRel-Name>
+```
+
+### Why This format?
+
+You may be wondering why this format for the wiki pages?
+The information in this folder was previously hosted at `https://wiki.eclipse.org/`,
+but in early 2024 that wiki [was made read-only](https://gitlab.eclipse.org/eclipsefdn/helpdesk/-/wikis/Wiki-shutdown-plan).
+The GitHub built-in wiki was determined to be insufficiently flexible for managing and authoring content.
+- Non-committers can't easily contribute due to lack of support for pull requests.
+- Folder nesting is not fully supported.
+- Overall navigation is somewhat limited.
+
+Therefore simply storing the files as markdown directly in this repository was deemed to be the best solution.
 
 ## Older Releases
 

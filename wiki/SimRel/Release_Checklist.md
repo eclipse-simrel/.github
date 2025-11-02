@@ -87,7 +87,7 @@ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=544179">bug
 <td><p>Update SimRel wiki pages</p></td>
 <td><ul>
 <li><a
-href="https://wiki.eclipse.org/Simultaneous_Release">https://wiki.eclipse.org/Simultaneous_Release</a></li>
+href="../Simultaneous_Release.md">SimRel Schedule</a></li>
 </ul></td>
 <td><p>SimRel release engineer</p></td>
 </tr>
