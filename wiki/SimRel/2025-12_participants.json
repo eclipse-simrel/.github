@@ -169,7 +169,7 @@
     },
     "tools.windowbuilder": {
       "project_name": "Eclipse WindowBuilder",
-      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v150.asciidoc"
+      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v122.asciidoc"
     },
     "webtools.sourceediting": {
       "project_name": "Eclipse WTP Source Editing",
