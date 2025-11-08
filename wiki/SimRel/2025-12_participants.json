@@ -151,6 +151,10 @@
       "project_name": "Eclipse Tools for Faces",
       "new_and_noteworthy_url": "https://github.com/eclipse-jsf/webtools.jsf/releases/tag/R3_39"
     },
+    "webtools.jeetools": {
+      "project_name": "Eclipse Tools for Java EE",
+      "new_and_noteworthy_url": "https://github.com/eclipse-jeetools/webtools.javaee/releases/tag/R3_39"
+    },
     "tools.tracecompass": {
       "project_name": "Eclipse Trace Compass",
       "new_and_noteworthy_url": "https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.1"
@@ -162,6 +166,10 @@
     "webtools.webservices": {
       "project_name": "Eclipse Web Services Tools",
       "new_and_noteworthy_url": "https://github.com/eclipse-webservices/webservices/releases/tag/R3_39"
+    },
+    "webtools.common": {
+      "project_name": "Eclipse Web Tools Common",
+      "new_and_noteworthy_url": "https://github.com/eclipse-wtp-common/webtools.common/releases/tag/R3_39"
     },
     "tools.wildwebdeveloper": {
       "project_name": "Eclipse Wild Web Developer",
@@ -175,14 +183,6 @@
       "project_name": "Eclipse WTP Source Editing",
       "new_and_noteworthy_url": "https://github.com/eclipse-sourceediting/sourceediting/releases/tag/R3_39"
     },
-    "modeling.tmf.xtext": {"project_name": "Eclipse Xtext"},
-    "webtools.common": {
-      "project_name": "Web Tools Common",
-      "new_and_noteworthy_url": "https://github.com/eclipse-wtp-common/webtools.common/releases/tag/R3_39"
-    },
-    "webtools.jeetools": {
-      "project_name": "WTP Java EE Tools",
-      "new_and_noteworthy_url": "https://github.com/eclipse-jeetools/webtools.javaee/releases/tag/R3_39"
-    }
+    "modeling.tmf.xtext": {"project_name": "Eclipse Xtext"}
   }
 }}
