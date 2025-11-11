@@ -183,6 +183,6 @@
       "project_name": "Eclipse WTP Source Editing",
       "new_and_noteworthy_url": "https://github.com/eclipse-sourceediting/sourceediting/releases/tag/R3_39"
     },
-    "modeling.tmf.xtext": {"project_name": "Eclipse Xtext"}
+    "modeling.xtext": {"project_name": "Eclipse Xtext"}
   }
 }}
