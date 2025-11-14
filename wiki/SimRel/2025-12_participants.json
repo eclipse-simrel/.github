@@ -9,12 +9,12 @@
       "project_name": "Eclipse Acceleo",
       "new_and_noteworthy_url": "https://github.com/eclipse-acceleo/acceleo/releases/tag/4.2.0"
     },
-    "modeling.mmt.atl": {
+    "modeling.atl": {
       "project_name": "Eclipse ATL",
       "new_and_noteworthy_url": "https://github.com/eclipse-atl/atl/releases/tag/v4.12.0"
     },
     "tools.buildship": {"project_name": "Eclipse Buildship: Eclipse Plug-ins for Gradle"},
-    "modeling.emf.cdo": {
+    "modeling.cdo": {
       "project_name": "Eclipse CDO Model Repository",
       "new_and_noteworthy_url": "https://download.eclipse.org/modeling/emf/cdo/drops/S20251029-1905/relnotes.html"
     },
@@ -42,7 +42,7 @@
       "new_and_noteworthy_url": "https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.4"
     },
     "iot.embed-cdt": {"project_name": "Eclipse Embedded CDT (C/C++ Development Tools)"},
-    "modeling.emf.emf": {"project_name": "Eclipse EMF"},
+    "modeling.emf": {"project_name": "Eclipse EMF"},
     "modeling.emfcompare": {"project_name": "Eclipse EMF Compare"},
     "modeling.emf-parsley": {"project_name": "Eclipse EMF Parsley"},
     "modeling.emfservices": {"project_name": "Eclipse EMF Services"},
@@ -82,7 +82,7 @@
     },
     "technology.lsp4e": {
       "project_name": "Eclipse LSP4E",
-      "new_and_noteworthy_url": "https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.27.11"
+      "new_and_noteworthy_url": "https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.28.0"
     },
     "technology.lsp4j": {
       "project_name": "Eclipse LSP4J",
@@ -93,15 +93,15 @@
       "project_name": "Eclipse Maven Integration - m2eclipse",
       "new_and_noteworthy_url": "https://github.com/eclipse-m2e/m2e-core/blob/main/RELEASE_NOTES.md"
     },
-    "modeling.mdt.uml2": {"project_name": "Eclipse MDT UML2"},
+    "modeling.uml2": {"project_name": "Eclipse MDT UML2"},
     "tools.mat": {"project_name": "Eclipse Memory Analyzer"},
-    "modeling.emf.mwe": {"project_name": "Eclipse Modeling Workflow Engine"},
+    "modeling.mwe": {"project_name": "Eclipse Modeling Workflow Engine"},
     "modeling.modisco": {"project_name": "Eclipse MoDisco"},
     "tools.mylyn": {
       "project_name": "Eclipse Mylyn",
       "new_and_noteworthy_url": "https://github.com/eclipse-mylyn/org.eclipse.mylyn/releases/tag/R_4_8_0"
     },
-    "modeling.mdt.ocl": {"project_name": "Eclipse OCL (Object Constraint Language)"},
+    "modeling.ocl": {"project_name": "Eclipse OCL (Object Constraint Language)"},
     "tools.oomph": {"project_name": "Eclipse Oomph"},
     "tools.orbit": {"project_name": "Eclipse Orbit Project"},
     "technology.packaging": {
@@ -125,8 +125,8 @@
       "project_name": "Eclipse Platform",
       "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.38/platform.html"
     },
-    "modeling.mmt.qvtd": {"project_name": "Eclipse QVTd (QVT Declarative)"},
-    "modeling.mmt.qvt-oml": {"project_name": "Eclipse QVT Operational"},
+    "modeling.qvtd": {"project_name": "Eclipse QVTd (QVT Declarative)"},
+    "modeling.qvt-oml": {"project_name": "Eclipse QVT Operational"},
     "rt.rap": {"project_name": "Eclipse Remote Application Platform"},
     "technology.scout": {
       "project_name": "Eclipse Scout",
