@@ -1,6 +1,9 @@
-<img src="../assets/artwork/svg/SimRel-Color.svg" width="10%">
+<img src="../assets/artwork/svg/SimRel-Color.svg" width="10%"/>
+<div>
+This page and related content are <b>best viewed</b> and navigated via the <a href="https://eclipse.dev/simrel">project website</a>.
 
 ---
+</div>
 
 ## Planning Council
 
