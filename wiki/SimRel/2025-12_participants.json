@@ -16,7 +16,7 @@
     "tools.buildship": {"project_name": "Eclipse Buildship: Eclipse Plug-ins for Gradle"},
     "modeling.cdo": {
       "project_name": "Eclipse CDO Model Repository",
-      "new_and_noteworthy_url": "https://download.eclipse.org/modeling/emf/cdo/drops/S20251029-1905/relnotes.html"
+      "new_and_noteworthy_url": "https://download.eclipse.org/modeling/emf/cdo/updates/all-relnotes.html"
     },
     "tools.cdt": {
       "project_name": "Eclipse CDT (C/C++ Development Tooling)",
@@ -82,7 +82,7 @@
     },
     "technology.lsp4e": {
       "project_name": "Eclipse LSP4E",
-      "new_and_noteworthy_url": "https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.28.0"
+      "new_and_noteworthy_url": "https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.29.1"
     },
     "technology.lsp4j": {
       "project_name": "Eclipse LSP4J",
@@ -145,7 +145,7 @@
     "tools.tm": {"project_name": "Eclipse Target Management: Terminal and Remote System Explorer (RSE)"},
     "technology.tm4e": {
       "project_name": "Eclipse TM4E - TextMate support in the Eclipse IDE",
-      "new_and_noteworthy_url": "https://github.com/eclipse-tm4e/tm4e/releases/tag/0.16.0"
+      "new_and_noteworthy_url": "https://github.com/eclipse-tm4e/tm4e/releases/tag/0.17.0"
     },
     "webtools.jsf": {
       "project_name": "Eclipse Tools for Faces",
