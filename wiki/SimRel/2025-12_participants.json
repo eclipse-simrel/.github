@@ -7,12 +7,9 @@
   "projects": {
     "modeling.acceleo": {
       "project_name": "Eclipse Acceleo",
-      "new_and_noteworthy_url": "https://github.com/eclipse-acceleo/acceleo/releases/tag/4.2.0"
+      "new_and_noteworthy_url": "https://github.com/eclipse-acceleo/acceleo/releases/latest"
     },
-    "modeling.atl": {
-      "project_name": "Eclipse ATL",
-      "new_and_noteworthy_url": "https://github.com/eclipse-atl/atl/releases/tag/v4.12.0"
-    },
+    "modeling.atl": {"project_name": "Eclipse ATL"},
     "tools.buildship": {"project_name": "Eclipse Buildship: Eclipse Plug-ins for Gradle"},
     "modeling.cdo": {
       "project_name": "Eclipse CDO Model Repository",
@@ -28,18 +25,15 @@
     },
     "webtools.dali": {
       "project_name": "Eclipse Dali Java Persistence Tools",
-      "new_and_noteworthy_url": "https://github.com/eclipse-dali/webtools.dali/releases/tag/R3_39"
+      "new_and_noteworthy_url": "https://github.com/eclipse-dali/webtools.dali/releases/latest"
     },
     "tools.datatools": {"project_name": "Eclipse Data Tools Platform"},
     "technology.dltk": {"project_name": "Eclipse Dynamic Languages Toolkit"},
-    "technology.eclemma": {
-      "project_name": "Eclipse EclEmma",
-      "new_and_noteworthy_url": "https://github.com/eclipse-eclemma/eclemma/releases/tag/v3.1.10"
-    },
+    "technology.eclemma": {"project_name": "Eclipse EclEmma"},
     "modeling.ecoretools": {"project_name": "Eclipse Ecore Tools"},
     "technology.egit": {
       "project_name": "Eclipse EGit: Git Integration for Eclipse",
-      "new_and_noteworthy_url": "https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.4"
+      "new_and_noteworthy_url": "https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.5"
     },
     "iot.embed-cdt": {"project_name": "Eclipse Embedded CDT (C/C++ Development Tools)"},
     "modeling.emf": {"project_name": "Eclipse EMF"},
@@ -53,7 +47,7 @@
     "modeling.eef": {"project_name": "Eclipse Extended Editing Framework (EEF)"},
     "modeling.gmf-runtime": {
       "project_name": "Eclipse GMF Runtime",
-      "new_and_noteworthy_url": "https://github.com/eclipse-gmf-runtime/gmf-runtime/releases/tag/v1.16.7"
+      "new_and_noteworthy_url": "https://github.com/eclipse-gmf-runtime/gmf-runtime/releases/latest"
     },
     "tools.gef": {
       "project_name": "Eclipse Graphical Editing Framework (GEF)",
@@ -63,17 +57,14 @@
       "project_name": "Eclipse Graphiti",
       "new_and_noteworthy_url": "https://eclipse.dev/graphiti/pages/whats-new-0.19.3.html"
     },
-    "webtools.jsdt": {
-      "project_name": "Eclipse JavaScript Development Tools",
-      "new_and_noteworthy_url": "https://github.com/eclipse-jsdt/webtools.jsdt/releases/tag/R3_39"
-    },
+    "webtools.jsdt": {"project_name": "Eclipse JavaScript Development Tools"},
     "eclipse.jdt": {
       "project_name": "Eclipse JDT (Java development tools)",
       "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.38/jdt.html"
     },
     "technology.jgit": {
       "project_name": "Eclipse JGit: Java implementation of Git",
-      "new_and_noteworthy_url": "https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.3"
+      "new_and_noteworthy_url": "https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.5"
     },
     "technology.justj": {"project_name": "Eclipse JustJ"},
     "tools.linuxtools": {
@@ -82,7 +73,7 @@
     },
     "technology.lsp4e": {
       "project_name": "Eclipse LSP4E",
-      "new_and_noteworthy_url": "https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.29.1"
+      "new_and_noteworthy_url": "https://github.com/eclipse-lsp4e/lsp4e/releases/latest"
     },
     "technology.lsp4j": {
       "project_name": "Eclipse LSP4J",
@@ -99,7 +90,7 @@
     "modeling.modisco": {"project_name": "Eclipse MoDisco"},
     "tools.mylyn": {
       "project_name": "Eclipse Mylyn",
-      "new_and_noteworthy_url": "https://github.com/eclipse-mylyn/org.eclipse.mylyn/releases/tag/R_4_8_0"
+      "new_and_noteworthy_url": "https://github.com/eclipse-mylyn/org.eclipse.mylyn/releases/latest"
     },
     "modeling.ocl": {"project_name": "Eclipse OCL (Object Constraint Language)"},
     "tools.oomph": {"project_name": "Eclipse Oomph"},
@@ -111,7 +102,7 @@
     "tools.ptp": {"project_name": "Eclipse Parallel Tools Platform (PTP)"},
     "technology.passage": {
       "project_name": "Eclipse Passage",
-      "new_and_noteworthy_url": "https://github.com/eclipse-passage/passage/releases/tag/R4_3_0"
+      "new_and_noteworthy_url": "https://github.com/eclipse-passage/passage/releases/latest"
     },
     "eclipse.pde": {
       "project_name": "Eclipse PDE",
@@ -119,7 +110,7 @@
     },
     "tools.pdt": {
       "project_name": "Eclipse PHP Development Tools",
-      "new_and_noteworthy_url": "https://github.com/eclipse-pdt/pdt/releases/tag/R8_1_0"
+      "new_and_noteworthy_url": "https://github.com/eclipse-pdt/pdt/releases/latest"
     },
     "eclipse.platform": {
       "project_name": "Eclipse Platform",
@@ -134,30 +125,27 @@
     },
     "webtools.servertools": {
       "project_name": "Eclipse Server Tools",
-      "new_and_noteworthy_url": "https://github.com/eclipse-servertools/servertools/releases/tag/R3_39"
+      "new_and_noteworthy_url": "https://github.com/eclipse-servertools/servertools/releases/latest"
     },
     "technology.simrel": {"project_name": "Eclipse SimRel"},
     "modeling.sirius": {
       "project_name": "Eclipse Sirius",
-      "new_and_noteworthy_url": "https://github.com/eclipse-sirius/sirius-desktop/releases/tag/v7.4.13"
+      "new_and_noteworthy_url": "https://github.com/eclipse-sirius/sirius-desktop/releases/latest"
     },
     "technology.swtbot": {"project_name": "Eclipse SWTBot"},
     "tools.tm": {"project_name": "Eclipse Target Management: Terminal and Remote System Explorer (RSE)"},
     "technology.tm4e": {
       "project_name": "Eclipse TM4E - TextMate support in the Eclipse IDE",
-      "new_and_noteworthy_url": "https://github.com/eclipse-tm4e/tm4e/releases/tag/0.17.0"
+      "new_and_noteworthy_url": "https://github.com/eclipse-tm4e/tm4e/releases/latest"
     },
-    "webtools.jsf": {
-      "project_name": "Eclipse Tools for Faces",
-      "new_and_noteworthy_url": "https://github.com/eclipse-jsf/webtools.jsf/releases/tag/R3_39"
-    },
+    "webtools.jsf": {"project_name": "Eclipse Tools for Faces"},
     "webtools.jeetools": {
       "project_name": "Eclipse Tools for Java EE",
-      "new_and_noteworthy_url": "https://github.com/eclipse-jeetools/webtools.javaee/releases/tag/R3_39"
+      "new_and_noteworthy_url": "https://github.com/eclipse-jeetools/webtools.javaee/releases/latest"
     },
     "tools.tracecompass": {
       "project_name": "Eclipse Trace Compass",
-      "new_and_noteworthy_url": "https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.1"
+      "new_and_noteworthy_url": "https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.2"
     },
     "technology.tycho": {
       "project_name": "Eclipse Tycho",
@@ -165,15 +153,15 @@
     },
     "webtools.webservices": {
       "project_name": "Eclipse Web Services Tools",
-      "new_and_noteworthy_url": "https://github.com/eclipse-webservices/webservices/releases/tag/R3_39"
+      "new_and_noteworthy_url": "https://github.com/eclipse-webservices/webservices/releases/latest"
     },
     "webtools.common": {
       "project_name": "Eclipse Web Tools Common",
-      "new_and_noteworthy_url": "https://github.com/eclipse-wtp-common/webtools.common/releases/tag/R3_39"
+      "new_and_noteworthy_url": "https://github.com/eclipse-wtp-common/webtools.common/releases/latest"
     },
     "tools.wildwebdeveloper": {
       "project_name": "Eclipse Wild Web Developer",
-      "new_and_noteworthy_url": "https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/releases/tag/1.3.10"
+      "new_and_noteworthy_url": "https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/releases/latest"
     },
     "tools.windowbuilder": {
       "project_name": "Eclipse WindowBuilder",
@@ -181,7 +169,7 @@
     },
     "webtools.sourceediting": {
       "project_name": "Eclipse WTP Source Editing",
-      "new_and_noteworthy_url": "https://github.com/eclipse-sourceediting/sourceediting/releases/tag/R3_39"
+      "new_and_noteworthy_url": "https://github.com/eclipse-sourceediting/sourceediting/releases/latest"
     },
     "modeling.xtext": {"project_name": "Eclipse Xtext"}
   }
