@@ -51,23 +51,21 @@ Repository</a>
 </tr>
 
 <tr class="odd">
-<td><p>2025-12 (Future release)</p></td>
+<td><p>2025-12 (Current release)</p></td>
 <td><p>4.38</p></td>
 <td><p>December 10, 2025</p></td>
 <td><p><a
 href="SimRel/2025-12.md">Wiki</a><br />
-<!-- Uncomment on release day
 <a
 href="https://www.eclipse.org/downloads/packages/release/2025-12/r">Package
 Download Page</a><br />
 <a href="https://download.eclipse.org/releases/2025-12/">p2
 Repository</a>
--->
 </p></td>
 </tr>
 
 <tr class="even">
-<td><p>2025-09 (Current release)</p></td>
+<td><p>2025-09 (Last release)</p></td>
 <td><p>4.37</p></td>
 <td><p>September 10, 2025</p></td>
 <td><p><a
@@ -81,7 +79,7 @@ Repository</a>
 </tr>
 
 <tr class="odd">
-<td><p>2025-06 (Last release)</p></td>
+<td><p>2025-06</p></td>
 <td><p>4.36</p></td>
 <td><p>June 11, 2025</p></td>
 <td><p><a
