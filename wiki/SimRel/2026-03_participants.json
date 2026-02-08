@@ -101,7 +101,6 @@
       "project_name": "Eclipse Packaging Project",
       "new_and_noteworthy_url": "https://github.com/eclipse-packaging/packages/blob/master/CHANGELOG.md"
     },
-    "tools.ptp": {"project_name": "Eclipse Parallel Tools Platform (PTP)"},
     "technology.passage": {
       "project_name": "Eclipse Passage",
       "new_and_noteworthy_url": "https://github.com/eclipse-passage/passage/releases/latest"
@@ -132,7 +131,6 @@
       "new_and_noteworthy_url": "https://github.com/eclipse-sirius/sirius-desktop/releases/latest"
     },
     "technology.swtbot": {"project_name": "Eclipse SWTBot"},
-    "tools.tm": {"project_name": "Eclipse Target Management: Terminal and Remote System Explorer (RSE)"},
     "technology.tm4e": {
       "project_name": "Eclipse TM4E - TextMate support in the Eclipse IDE",
       "new_and_noteworthy_url": "https://github.com/eclipse-tm4e/tm4e/releases/latest"
@@ -150,7 +148,7 @@
       "project_name": "Eclipse Tycho",
       "new_and_noteworthy_url": "https://github.com/eclipse-tycho/tycho/blob/main/RELEASE_NOTES.md"
     },
-    "modeling.uml2": {"project_name": "Eclipse  UML2"},
+    "modeling.uml2": {"project_name": "Eclipse UML2"},
     "webtools.webservices": {
       "project_name": "Eclipse Web Services Tools",
       "new_and_noteworthy_url": "https://github.com/eclipse-webservices/webservices/releases/latest"
