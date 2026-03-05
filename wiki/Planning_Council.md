@@ -119,7 +119,7 @@ Eclipse IDE WG onsite meeting
  
 # Links
 
-- [Planning Council Mailing list archive](https://www.eclipse.org//lists/eclipse.org-planning-council/maillist.html)
+- [Planning Council Mailing list archive](https://www.eclipse.org/lists/eclipse.org-planning-council/maillist.html)
 - [Index of simultaneous releases](Simultaneous_Release.md)
 - [Simultaneous Release Roles](SimRel/Simultaneous_Release_Roles.md)
 
