@@ -26,32 +26,30 @@ existing simultaneous releases from the current and previous years.
 href="SimRel/2026-06.md">Wiki</a><br />
 <!-- Uncomment on release day
 <a
-href="https://www.eclipse.org/downloads/packages/release/2025-12/r">Package
+href="https://www.eclipse.org/downloads/packages/release/2026-06/r">Package
 Download Page</a><br />
-<a href="https://download.eclipse.org/releases/2025-12/">p2
+<a href="https://download.eclipse.org/releases/2026-06/">p2
 Repository</a>
 -->
 </p></td>
 </tr>
 
 <tr class="even">
-<td><p>2026-03 (Future release)</p></td>
+<td><p>2026-03 (Current release)</p></td>
 <td><p>4.39</p></td>
 <td><p>March 11, 2026</p></td>
 <td><p><a
 href="SimRel/2026-03.md">Wiki</a><br />
-<!-- Uncomment on release day
 <a
-href="https://www.eclipse.org/downloads/packages/release/2025-12/r">Package
+href="https://www.eclipse.org/downloads/packages/release/2026-03/r">Package
 Download Page</a><br />
-<a href="https://download.eclipse.org/releases/2025-12/">p2
+<a href="https://download.eclipse.org/releases/2026-03/">p2
 Repository</a>
--->
 </p></td>
 </tr>
 
 <tr class="odd">
-<td><p>2025-12 (Current release)</p></td>
+<td><p>2025-12 (Last release)</p></td>
 <td><p>4.38</p></td>
 <td><p>December 10, 2025</p></td>
 <td><p><a
@@ -65,7 +63,7 @@ Repository</a>
 </tr>
 
 <tr class="even">
-<td><p>2025-09 (Last release)</p></td>
+<td><p>2025-09</p></td>
 <td><p>4.37</p></td>
 <td><p>September 10, 2025</p></td>
 <td><p><a

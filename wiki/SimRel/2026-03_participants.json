@@ -36,7 +36,7 @@
     "modeling.ecoretools": {"project_name": "Eclipse Ecore Tools"},
     "technology.egit": {
       "project_name": "Eclipse EGit: Git Integration for Eclipse",
-      "new_and_noteworthy_url": "https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.5"
+      "new_and_noteworthy_url": "https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.6"
     },
     "iot.embed-cdt": {"project_name": "Eclipse Embedded CDT (C/C++ Development Tools)"},
     "modeling.emf": {"project_name": "Eclipse EMF"},
@@ -67,7 +67,7 @@
     },
     "technology.jgit": {
       "project_name": "Eclipse JGit: Java implementation of Git",
-      "new_and_noteworthy_url": "https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.5"
+      "new_and_noteworthy_url": "https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.6"
     },
     "technology.justj": {"project_name": "Eclipse JustJ"},
     "tools.linuxtools": {
