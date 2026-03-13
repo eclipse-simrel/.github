@@ -20,4 +20,4 @@ This document relates to ${SIMREL_NAME}, the Eclipse Foundation's multi-project 
 
 ## Non-wiki pages related to the release
 
-[List of participating projects](https://projects.eclipse.org/releases/${SIMREL_NAME})
+[List of participating projects](https://eclipse.dev/simrel/?file=wiki/SimRel/${SIMREL_NAME}_participants.json)
