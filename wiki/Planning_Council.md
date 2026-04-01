@@ -63,6 +63,7 @@ Telephone Dial in (for higher quality, dial a number based on your curr
 
 ### Meeting Minutes
 
+ - [2026-04-01](Planning_Council/2026-04-01.md)
  - [2026-03-04](Planning_Council/2026-03-04.md)
  - [2026-02-04](Planning_Council/2026-02-04.md)
  - [2026-01-07](Planning_Council/2026-01-07.md)
