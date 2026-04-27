@@ -126,7 +126,7 @@
     "webtools.jeetools": {"project_name": "Eclipse Tools for Java EE"},
     "tools.tracecompass": {
       "project_name": "Eclipse Trace Compass",
-      "new_and_noteworthy_url": "https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.2"
+      "new_and_noteworthy_url": "https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.3"
     },
     "technology.tycho": {
       "project_name": "Eclipse Tycho",
@@ -138,7 +138,7 @@
     "tools.wildwebdeveloper": {"project_name": "Eclipse Wild Web Developer"},
     "tools.windowbuilder": {
       "project_name": "Eclipse WindowBuilder",
-      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v123.asciidoc"
+      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v124.asciidoc"
     },
     "webtools.sourceediting": {"project_name": "Eclipse WTP Source Editing"},
     "modeling.xtext": {"project_name": "Eclipse Xtext"}
