@@ -118,6 +118,7 @@
       "new_and_noteworthy_url": "https://github.com/eclipse-sirius/sirius-desktop/releases/latest"
     },
     "technology.swtbot": {"project_name": "Eclipse SWTBot"},
+    "tools.tcf": {"project_name": "Eclipse Target Communication Framework"},
     "technology.tm4e": {
       "project_name": "Eclipse TM4E - TextMate support in the Eclipse IDE",
       "new_and_noteworthy_url": "https://github.com/eclipse-tm4e/tm4e/releases/latest"
