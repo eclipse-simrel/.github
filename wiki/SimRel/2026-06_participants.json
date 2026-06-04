@@ -49,7 +49,7 @@
     },
     "modeling.graphiti": {
       "project_name": "Eclipse Graphiti",
-      "new_and_noteworthy_url": "https://eclipse.dev/graphiti/pages/whats-new-0.19.3.html"
+      "new_and_noteworthy_url": "https://eclipse.dev/graphiti/pages/whats-new-0.19.4.html"
     },
     "webtools.jsdt": {"project_name": "Eclipse JavaScript Development Tools"},
     "eclipse.jdt": {
@@ -58,7 +58,7 @@
     },
     "technology.jgit": {
       "project_name": "Eclipse JGit: Java implementation of Git",
-      "new_and_noteworthy_url": "https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.6"
+      "new_and_noteworthy_url": "https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.7"
     },
     "technology.justj": {"project_name": "Eclipse JustJ"},
     "tools.linuxtools": {
