@@ -17,7 +17,7 @@
     },
     "tools.cdt": {
       "project_name": "Eclipse CDT (C/C++ Development Tooling)",
-      "new_and_noteworthy_url": "https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.5.md"
+      "new_and_noteworthy_url": "https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.6.md"
     },
     "rt.ecf": {
       "project_name": "Eclipse Communications Framework",
@@ -27,7 +27,10 @@
     "tools.datatools": {"project_name": "Eclipse Data Tools Platform"},
     "technology.dltk": {"project_name": "Eclipse Dynamic Languages Toolkit"},
     "technology.eclemma": {"project_name": "Eclipse EclEmma"},
-    "modeling.ecoretools": {"project_name": "Eclipse Ecore Tools"},
+    "modeling.ecoretools": {
+      "project_name": "Eclipse Ecore Tools",
+      "new_and_noteworthy_url": "https://github.com/eclipse-ecoretools/ecoretools/releases/latest"
+    },
     "technology.egit": {
       "project_name": "Eclipse EGit: Git Integration for Eclipse",
       "new_and_noteworthy_url": "https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.7"
@@ -80,7 +83,10 @@
     },
     "tools.mat": {"project_name": "Eclipse Memory Analyzer"},
     "modeling.mwe": {"project_name": "Eclipse Modeling Workflow Engine"},
-    "tools.mylyn": {"project_name": "Eclipse Mylyn"},
+    "tools.mylyn": {
+      "project_name": "Eclipse Mylyn",
+      "new_and_noteworthy_url": "https://github.com/eclipse-mylyn/org.eclipse.mylyn/releases/latest"
+    },
     "modeling.ocl": {"project_name": "Eclipse OCL (Object Constraint Language)"},
     "tools.oomph": {"project_name": "Eclipse Oomph"},
     "tools.orbit": {"project_name": "Eclipse Orbit Project"},
@@ -88,7 +94,10 @@
       "project_name": "Eclipse Packaging Project",
       "new_and_noteworthy_url": "https://github.com/eclipse-packaging/packages/blob/master/CHANGELOG.md"
     },
-    "technology.passage": {"project_name": "Eclipse Passage"},
+    "technology.passage": {
+      "project_name": "Eclipse Passage",
+      "new_and_noteworthy_url": "https://github.com/eclipse-passage/passage/releases/latest"
+    },
     "eclipse.pde": {
       "project_name": "Eclipse PDE",
       "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.41/pde.html"
@@ -118,7 +127,7 @@
     "webtools.jeetools": {"project_name": "Eclipse Tools for Java EE"},
     "tools.tracecompass": {
       "project_name": "Eclipse Trace Compass",
-      "new_and_noteworthy_url": "https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.3"
+      "new_and_noteworthy_url": "https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn12.1"
     },
     "technology.tycho": {
       "project_name": "Eclipse Tycho",
@@ -130,7 +139,7 @@
     "tools.wildwebdeveloper": {"project_name": "Eclipse Wild Web Developer"},
     "tools.windowbuilder": {
       "project_name": "Eclipse WindowBuilder",
-      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v124.asciidoc"
+      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v125.asciidoc"
     },
     "webtools.sourceediting": {"project_name": "Eclipse WTP Source Editing"},
     "modeling.xtext": {"project_name": "Eclipse Xtext"}
