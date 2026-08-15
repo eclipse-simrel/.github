@@ -19,6 +19,40 @@ existing simultaneous releases from the current and previous years.
 <tbody>
 
 <tr class="odd">
+<td><p>2027-06 (Future release)</p></td>
+<td><p>4.44</p></td>
+<td><p>June 16, 2027</p></td>
+<td><p><a
+href="SimRel/2027-06.md">Wiki</a><br />
+<!-- Uncomment on release day
+<a
+<a
+href="https://www.eclipse.org/downloads/packages/release/2027-06/r">Package
+Download Page</a><br />
+<a href="https://download.eclipse.org/releases/2027-06/">p2
+Repository</a>
+-->
+</p></td>
+</tr>
+
+<tr class="even">
+<td><p>2027-03 (Future release)</p></td>
+<td><p>4.43</p></td>
+<td><p>March 17, 2027</p></td>
+<td><p><a
+href="SimRel/2027-03.md">Wiki</a><br />
+<!-- Uncomment on release day
+<a
+<a
+href="https://www.eclipse.org/downloads/packages/release/2027-03/r">Package
+Download Page</a><br />
+<a href="https://download.eclipse.org/releases/2027-03/">p2
+Repository</a>
+-->
+</p></td>
+</tr>
+
+<tr class="odd">
 <td><p>2026-12 (Future release)</p></td>
 <td><p>4.42</p></td>
 <td><p>December 09, 2026</p></td>
