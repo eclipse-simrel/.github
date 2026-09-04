@@ -45,7 +45,10 @@
       "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.41/platform_isv.html"
     },
     "modeling.eef": {"project_name": "Eclipse Extended Editing Framework (EEF)"},
-    "modeling.gmf-runtime": {"project_name": "Eclipse GMF Runtime"},
+    "modeling.gmf-runtime": {
+      "project_name": "Eclipse GMF Runtime",
+      "new_and_noteworthy_url": "https://github.com/eclipse-gmf-runtime/gmf-runtime/releases/latest"
+    },
     "tools.gef": {
       "project_name": "Eclipse Graphical Editing Framework (GEF)",
       "new_and_noteworthy_url": "https://github.com/eclipse-gef/gef-classic/blob/master/CHANGELOG.md"
@@ -122,7 +125,10 @@
     },
     "technology.swtbot": {"project_name": "Eclipse SWTBot"},
     "tools.tcf": {"project_name": "Eclipse Target Communication Framework"},
-    "technology.tm4e": {"project_name": "Eclipse TM4E - TextMate support in the Eclipse IDE"},
+    "technology.tm4e": {
+      "project_name": "Eclipse TM4E - TextMate support in the Eclipse IDE",
+      "new_and_noteworthy_url": "https://github.com/eclipse-tm4e/tm4e/releases/latest"
+    },
     "webtools.jsf": {"project_name": "Eclipse Tools for Faces"},
     "webtools.jeetools": {"project_name": "Eclipse Tools for Java EE"},
     "tools.tracecompass": {
@@ -139,7 +145,7 @@
     "tools.wildwebdeveloper": {"project_name": "Eclipse Wild Web Developer"},
     "tools.windowbuilder": {
       "project_name": "Eclipse WindowBuilder",
-      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v125.asciidoc"
+      "new_and_noteworthy_url": "https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v126.asciidoc"
     },
     "webtools.sourceediting": {"project_name": "Eclipse WTP Source Editing"},
     "modeling.xtext": {"project_name": "Eclipse Xtext"}
