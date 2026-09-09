@@ -69,23 +69,21 @@ Repository</a>
 </tr>
 
 <tr class="odd">
-<td><p>2026-09 (Future release)</p></td>
+<td><p>2026-09 (Current release)</p></td>
 <td><p>4.41</p></td>
 <td><p>September 09, 2026</p></td>
 <td><p><a
 href="SimRel/2026-09.md">Wiki</a><br />
-<!-- Uncomment on release day
 <a
 href="https://www.eclipse.org/downloads/packages/release/2026-09/r">Package
 Download Page</a><br />
 <a href="https://download.eclipse.org/releases/2026-09/">p2
 Repository</a>
--->
 </p></td>
 </tr>
 
 <tr class="odd">
-<td><p>2026-06 (Current release)</p></td>
+<td><p>2026-06 (Last release)</p></td>
 <td><p>4.40</p></td>
 <td><p>June 10, 2026</p></td>
 <td><p><a
@@ -99,7 +97,7 @@ Repository</a>
 </tr>
 
 <tr class="even">
-<td><p>2026-03 (Last release)</p></td>
+<td><p>2026-03</p></td>
 <td><p>4.39</p></td>
 <td><p>March 11, 2026</p></td>
 <td><p><a
