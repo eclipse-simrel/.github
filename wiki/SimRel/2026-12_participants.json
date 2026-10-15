@@ -17,7 +17,7 @@
     },
     "tools.cdt": {
       "project_name": "Eclipse CDT (C/C++ Development Tooling)",
-      "new_and_noteworthy_url": "https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.6.md"
+      "new_and_noteworthy_url": "https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.7.md"
     },
     "rt.ecf": {
       "project_name": "Eclipse Communications Framework",
@@ -42,7 +42,7 @@
     "modeling.emfservices": {"project_name": "Eclipse EMF Services"},
     "eclipse.equinox": {
       "project_name": "Eclipse Equinox",
-      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.41/platform_isv.html"
+      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.42/platform_isv.html"
     },
     "modeling.eef": {"project_name": "Eclipse Extended Editing Framework (EEF)"},
     "modeling.gmf-runtime": {
@@ -60,7 +60,7 @@
     "webtools.jsdt": {"project_name": "Eclipse JavaScript Development Tools"},
     "eclipse.jdt": {
       "project_name": "Eclipse JDT (Java development tools)",
-      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.41/jdt.html"
+      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.42/jdt.html"
     },
     "technology.jgit": {
       "project_name": "Eclipse JGit: Java implementation of Git",
@@ -103,12 +103,12 @@
     },
     "eclipse.pde": {
       "project_name": "Eclipse PDE",
-      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.41/pde.html"
+      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.42/pde.html"
     },
     "tools.pdt": {"project_name": "Eclipse PHP Development Tools"},
     "eclipse.platform": {
       "project_name": "Eclipse Platform",
-      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.41/platform.html"
+      "new_and_noteworthy_url": "https://eclipse.dev/eclipse/news/4.42/platform.html"
     },
     "modeling.qvtd": {"project_name": "Eclipse QVTd (QVT Declarative)"},
     "modeling.qvt-oml": {"project_name": "Eclipse QVT Operational"},
