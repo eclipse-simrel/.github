@@ -38,7 +38,7 @@ The calendar is available in the following formats:
 
 Join from Windows, Mac, Linux, iOS or Android:
 
-<https://eclipse.zoom.us/j/928841320?pwd=WG9EeVl3ZjZweWNGb1BCclVYaEhEZz09>
+<https://eclipse.zoom.us/j/87669245625?pwd=a4ljbTLgVRmmu4RR2irbBcSJ9IadJa.1>
 
 **Meeting ID: 928 841 320**
 
